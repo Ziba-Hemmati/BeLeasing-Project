@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Poppins-Normal";
+  src: url(../Assets/Fonts/Poppins-Normal.woff2);
+}
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url(../Assets/Fonts/Poppins-Bold.woff2);
+}
+@font-face {
+  font-family: "Poppins-Bolder";
+  src: url(../Assets/Fonts/Poppins-Bolder.woff2);
+}
+@font-face {
+  font-family: "DM-Sans-Normal";
+  src: url(../Assets/Fonts/DM-Sans-Normal.woff2);
+}
+@font-face {
+  font-family: "DM-Sans-Bold";
+  src: url(../Assets/Fonts/DM-Sans-Bold.woff2);
+}
+@font-face {
+  font-family: "DM-Sans-Bolder";
+  src: url(../Assets/Fonts/DM-Sans-Bolder.woff2);
+}
+:root {
+  --font-Poppins-Normal: "Poppins-Normal";
+  --font-Poppins-Bold: "Poppins-Bold";
+  --font-Poppins-Bolder: "Poppins-Bolder";
+  --font-Poppins-Normal: "DM-Sans-Normal";
+  --font-Poppins-Bold: "DM-Sans-Bold";
+  --font-Poppins-Bolder: "DM-Sans-Bolder";
+  --color-White: #ffffff;
+  --color-Light-Gray: #f4f3f5;
+  --color-Gray: #e0dcdc;
+  --color-Dark-Gray: #efedf0;
+  --color-Light-Green: #80b541;
+  --color-Blue-HighLight: #e6f5f6;
+  --color-Light-Blue: #00aab1;
+  --color-Dark-Blue: #1e2b6f;
+  --color-Purple: #802e8f;
+  --color-Black: #000000;
+}
