@@ -31,9 +31,9 @@
   --font-Poppins-Normal: "Poppins-Normal";
   --font-Poppins-Bold: "Poppins-Bold";
   --font-Poppins-Bolder: "Poppins-Bolder";
-  --font-Poppins-Normal: "DM-Sans-Normal";
-  --font-Poppins-Bold: "DM-Sans-Bold";
-  --font-Poppins-Bolder: "DM-Sans-Bolder";
+  --font-DM-Sans-Normal: "DM-Sans-Normal";
+  --font-DM-Sans-Bold: "DM-Sans-Bold";
+  --font-DM-Sans-Bolder: "DM-Sans-Bolder";
   --color-White: #ffffff;
   --color-Light-Gray: #f4f3f5;
   --color-Gray: #e0dcdc;
