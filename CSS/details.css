@@ -2,19 +2,35 @@
 * {
   font-family: var(--font-Poppins-Normal);
 }
-.outset {
+
+.topoutset {
   background-color: var(--color-Light-Gray);
-  padding: 100px 33px 55px;
+}
+.topcontent {
+  width: 100vw;
+  padding: 100px 33px 0;
+}
+.background {
+  background-image: url(../Assets/Images/leasing-bg-logo.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 280px;
 }
 .buy-now {
   font-size: 0.82rem;
   font-weight: bold;
   color: var(--color-Light-Blue);
-  padding-bottom: 15px;
+  padding-bottom: 10px;
 }
 .outset-header {
   font-size: 2rem;
   padding-bottom: 35px;
+  line-height: 40px;
+}
+.outset {
+  background-color: var(--color-Light-Gray);
+  padding: 0 33px 55px;
 }
 .swiper-wrapper img {
   width: 100%;
@@ -47,4 +63,53 @@
   color: var(--color-White);
   font-size: 1.1rem;
   padding: 12px 30px;
+}
+.secondary {
+  padding: 100px 33px;
+  text-align: center;
+}
+.secondary-left {
+  display: flex;
+  flex-direction: column;
+}
+.border {
+  border: 1px solid var(--color-Dark-Gray);
+  margin-bottom: 15px;
+}
+.secondary-left h4 {
+  font-size: 0.8rem;
+  padding-bottom: 60px;
+}
+.space {
+  padding: 0 0 15px;
+  font-size: 0.8rem;
+}
+.item {
+  font-weight: bold;
+}
+.secondary-right {
+  font-size: 0.84rem;
+  padding-top: 30px;
+}
+.secondary-first-content {
+  margin-bottom: 15px;
+  font-family: var(--font-DM-Sans-Normal);
+}
+.secondary-second-content {
+  font-style: italic;
+}
+.special {
+  font-weight: bold;
+}
+.fa-check {
+  color: var(--color-Light-Blue);
+}
+.h4 {
+  padding: 100px 0 0;
+}
+.underline {
+  text-decoration: underline;
+}
+.boldtext {
+  font-weight: bold;
 }
