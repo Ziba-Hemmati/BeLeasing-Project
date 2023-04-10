@@ -4,7 +4,7 @@
 }
 .outset {
   background-color: var(--color-Light-Gray);
-  padding: 100px 33px;
+  padding: 100px 33px 55px;
 }
 .buy-now {
   font-size: 0.82rem;
@@ -18,4 +18,33 @@
 }
 .swiper-wrapper img {
   width: 100%;
+}
+.outset-content {
+  padding: 0 12px;
+  margin-top: 60px;
+}
+.outside-h3 {
+  font-size: 1.2rem;
+  margin-bottom: 36px;
+}
+.outside-p {
+  font-size: 0.8rem;
+  margin-bottom: 36px;
+}
+.outside-price {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+.outside-price span {
+  margin-right: 15px;
+  font-size: 0.8rem;
+}
+.outside-btn {
+  border: none;
+  background-color: var(--color-Light-Blue);
+  color: var(--color-White);
+  font-size: 1.1rem;
+  padding: 12px 30px;
 }
