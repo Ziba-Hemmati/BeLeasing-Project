@@ -1,0 +1,17 @@
+@import "_base.css";
+* {
+  font-family: var(--font-Poppins-Normal);
+}
+.outset {
+  background-color: var(--color-Light-Gray);
+  padding: 100px 33px;
+}
+.buy-now {
+  font-size: 0.82rem;
+  font-weight: bold;
+  color: var(--color-Light-Blue);
+  margin-bottom: 15px;
+}
+.outset-header {
+  font-size: 2rem;
+}
