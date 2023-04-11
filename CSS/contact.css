@@ -1,0 +1,47 @@
+*{
+    font-size: 10px;
+}
+.main-contact {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.back__header {
+    width: 100%;
+    background-image: url("../Images/leasing-contact-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box__message{
+    width: 80%;
+    background-color: rgba(143,26,164,0.8);
+    padding: 40px 50px;
+}
+.box__message__text{
+    color: var(--color-White);
+    font-size: 3rem;
+    font-family: var(--font-Poppins-Bold);
+}
+.box__message__btn{
+    width: 120px;
+    background-color: var(--color-Black);
+    padding: 8px 10px;
+    margin-top: 20px;
+    border: none;
+}
+.box__message__btn a{
+    color: var(--color-White);
+    text-decoration: none;
+    font-family: var(--font-DM-Sans-Bold);
+    font-size: 1.5rem;
+}
