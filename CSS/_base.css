@@ -1,69 +1,83 @@
 /* -----css reset----- */
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-size: 10px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
 *:focus {
-  outline: none;
+    outline: none;
 }
+
+html {
+    scroll-behavior: smooth;
+    font-size: 10px;
+}
+
 ul {
-  list-style: none;
+    list-style: none;
 }
+
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
+
 button,
 input[type="submit"] {
-  cursor: pointer;
-  border: none;
+    cursor: pointer;
+    border: none;
 }
 
 /* -----fonts----- */
 
 @font-face {
-  font-family: "Poppins-Normal";
-  src: url(../Assets/Fonts/Poppins-Normal.woff2);
+    font-family: "Poppins-Normal";
+    src: url(../Assets/Fonts/Poppins-Normal.woff2);
 }
+
 @font-face {
-  font-family: "Poppins-Bold";
-  src: url(../Assets/Fonts/Poppins-Bold.woff2);
+    font-family: "Poppins-Bold";
+    src: url(../Assets/Fonts/Poppins-Bold.woff2);
 }
+
 @font-face {
-  font-family: "Poppins-Bolder";
-  src: url(../Assets/Fonts/Poppins-Bolder.woff2);
+    font-family: "Poppins-Bolder";
+    src: url(../Assets/Fonts/Poppins-Bolder.woff2);
 }
+
 @font-face {
-  font-family: "DM-Sans-Normal";
-  src: url(../Assets/Fonts/DM-Sans-Normal.woff2);
+    font-family: "DM-Sans-Normal";
+    src: url(../Assets/Fonts/DM-Sans-Normal.woff2);
 }
+
 @font-face {
-  font-family: "DM-Sans-Bold";
-  src: url(../Assets/Fonts/DM-Sans-Bold.woff2);
+    font-family: "DM-Sans-Bold";
+    src: url(../Assets/Fonts/DM-Sans-Bold.woff2);
 }
+
 @font-face {
-  font-family: "DM-Sans-Bolder";
-  src: url(../Assets/Fonts/DM-Sans-Bolder.woff2);
+    font-family: "DM-Sans-Bolder";
+    src: url(../Assets/Fonts/DM-Sans-Bolder.woff2);
 }
+
 /* -----root----- */
 
 :root {
-  --font-Poppins-Normal: "Poppins-Normal";
-  --font-Poppins-Bold: "Poppins-Bold";
-  --font-Poppins-Bolder: "Poppins-Bolder";
-  --font-DM-Sans-Normal: "DM-Sans-Normal";
-  --font-DM-Sans-Bold: "DM-Sans-Bold";
-  --font-DM-Sans-Bolder: "DM-Sans-Bolder";
-  --color-White: #ffffff;
-  --color-Light-Gray: #f4f3f5;
-  --color-Gray: #e0dcdc;
-  --color-Dark-Gray: #efedf0;
-  --color-Light-Green: #80b541;
-  --color-Blue-HighLight: #e6f5f6;
-  --color-Light-Blue: #00aab1;
-  --color-Dark-Blue: #1e2b6f;
-  --color-Purple: #802e8f;
-  --color-Black: #000000;
+    --font-Poppins-Normal: "Poppins-Normal";
+    --font-Poppins-Bold: "Poppins-Bold";
+    --font-Poppins-Bolder: "Poppins-Bolder";
+    --font-DM-Sans-Normal: "DM-Sans-Normal";
+    --font-DM-Sans-Bold: "DM-Sans-Bold";
+    --font-DM-Sans-Bolder: "DM-Sans-Bolder";
+    --color-White: #ffffff;
+    --color-Light-Gray: #f4f3f5;
+    --color-Gray: #e0dcdc;
+    --color-Dark-Gray: #efedf0;
+    --color-Light-Green: #80b541;
+    --color-Blue-HighLight: #e6f5f6;
+    --color-Light-Blue: #00aab1;
+    --color-Dark-Blue: #1e2b6f;
+    --color-Purple: #802e8f;
+    --color-Black: #000000;
 }

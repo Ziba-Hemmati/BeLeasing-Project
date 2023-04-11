@@ -1,0 +1,122 @@
+/*=================== import ===================*/
+@import "_base.css";
+
+/*=================== main style ===================*/
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    padding: 0 32px;
+}
+
+.row {
+    width: 100%;
+}
+
+/*=================== slider ===================*/
+.slider {
+    position: relative;
+}
+
+.slider__image-container {
+    display: flex;
+    max-height: 700px;
+    overflow: hidden;
+}
+
+.slider__image {
+    width: 100%;
+    height: 100%;
+}
+
+/*========== slider banner ==========*/
+
+.slider__banner-container {
+    padding: 0 16px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 16px;
+    height: 100%;
+}
+
+.slider__banner {
+    font-family: Poppins-Bolder, sans-serif;
+    font-size: 1.3rem;
+    color: var(--color-White);
+    background-color: rgba(128, 46, 143, 0.8);
+    padding: 10px;
+    animation: moveToRight 1s;
+    width: 50%;
+    height: 50%;
+    align-self: flex-end;
+}
+
+.slider__banner-button {
+    margin-top: 4px;
+}
+
+.slider__banner-title {
+    animation: moveToLeft 1.5s 1;
+}
+
+.slider__button {
+    background-color: var(--color-Black);
+    padding: 5px 10px;
+    font-family: Poppins-Bolder, sans-serif;
+    font-size: 0.4rem;
+    color: var(--color-White);
+}
+
+@keyframes moveToRight {
+    from {
+        transform: translateX(-400px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes moveToLeft {
+    0% {
+        transform: translateX(220px);
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/*========== slider arrow ==========*/
+.slider__arrow-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.slider__arrow-line {
+    display: flex;
+    justify-content: flex-end;
+    width: 1px;
+    height: 99%;
+    margin-right: 2px;
+    background-color: #D7D7D7;
+    opacity: 0.3;
+}
+
+.slider__arrow-image {
+    width: 6px;
+    height: 7px;
+}
+
+.slider__arrow-text {
+    font-family: DM-Sans-Bolder, sans-serif;
+    font-size: 0.4rem;
+    color: var(--color-White);
+}
