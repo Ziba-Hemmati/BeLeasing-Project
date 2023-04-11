@@ -1,1 +1,10 @@
+<<<<<<< HEAD
 .idea
+=======
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+.idea/
+>>>>>>> master
