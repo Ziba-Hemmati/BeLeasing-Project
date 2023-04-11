@@ -12,6 +12,11 @@
     padding: 0 32px;
 }
 
+.line {
+    width: 100%;
+    height: 1px;
+}
+
 .row {
     width: 100%;
 }
@@ -33,7 +38,6 @@
 }
 
 /*========== slider banner ==========*/
-
 .slider__banner-container {
     padding: 0 16px;
     display: flex;
@@ -44,8 +48,6 @@
 }
 
 .slider__banner {
-    font-family: Poppins-Bolder, sans-serif;
-    font-size: 1.3rem;
     color: var(--color-White);
     background-color: rgba(128, 46, 143, 0.8);
     padding: 10px;
@@ -55,12 +57,15 @@
     align-self: flex-end;
 }
 
-.slider__banner-button {
-    margin-top: 4px;
-}
-
 .slider__banner-title {
     animation: moveToLeft 1.5s 1;
+    font-family: Poppins-Bolder, sans-serif;
+    font-size: 1.3rem;
+    line-height: 15px;
+}
+
+.slider__banner-button {
+    margin-top: 8px;
 }
 
 .slider__button {
@@ -69,8 +74,18 @@
     font-family: Poppins-Bolder, sans-serif;
     font-size: 0.4rem;
     color: var(--color-White);
+    transition: 0.4s;
 }
 
+.slider__button:hover {
+    color: var(--color-Black);
+    padding: 5px 10px;
+    font-family: Poppins-Bolder, sans-serif;
+    font-size: 0.4rem;
+    background-color: var(--color-White);
+}
+
+/*===== banner animation =====*/
 @keyframes moveToRight {
     from {
         transform: translateX(-400px);
@@ -93,7 +108,7 @@
     }
 }
 
-/*========== slider arrow ==========*/
+/*===== slider arrow =====*/
 .slider__arrow-container {
     display: flex;
     flex-direction: column;
@@ -119,4 +134,118 @@
     font-family: DM-Sans-Bolder, sans-serif;
     font-size: 0.4rem;
     color: var(--color-White);
+}
+
+/*=================== products ===================*/
+.product {
+    background-color: var(--color-Light-Gray);
+    padding: 100px 0 125px 0;
+}
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.products__title {
+    font-family: Poppins-Bold, sans-serif;
+    font-size: 1.9rem;
+    line-height: 23px;
+}
+
+.products__line{
+    margin: 55px 0 45px 0;
+    background-color: #e1dede;
+}
+
+/*========== products card ==========*/
+.product__card{
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.product__image {
+    overflow: hidden;
+}
+
+.product__image-link {
+    display: flex;
+    transition: 0.4s;
+    overflow: hidden;
+}
+
+.product__image-link:hover {
+    transform: scale(1.1);
+}
+
+.product__description {
+    padding: 25px 35px;
+    background-color: var(--color-White);
+    color: var(--color-Black);
+}
+
+.product__card-title{
+    font-family: Poppins-Bold, sans-serif;
+    font-size: 1.9rem;
+    line-height: 23px;
+    color: var(--color-Black);
+}
+
+.product__card-price {
+    font-family: Poppins-Normal,sans-serif;
+    font-size: 1.6rem;
+    line-height: 20px;
+    margin-top: 15px;
+}
+
+/*========== products card ==========*/
+.products__button {
+    font-family: DM-Sans-Bold, sans-serif;
+    font-size: 1.7rem;
+    display: block;
+    text-align: center;
+    line-height: 17px;
+    background-color: var(--color-Black);
+    color: var(--color-White);
+    padding: 14px 30px;
+    margin: 40px 0 20px;
+}
+
+/*=================== responsive ===================*/
+/*========== mobile L==========*/
+@media (min-width: 425px) {
+    /*========== slider banner ==========*/
+    /*.slider__banner-container {*/
+
+    /*}*/
+
+    /*.slider__banner {*/
+    /*    padding: 20px;*/
+    /*    animation: moveToRight 1s;*/
+    /*    width: 50%;*/
+    /*    height: 50%;*/
+    /*    align-self: flex-end;*/
+    /*}*/
+
+    /*.slider__banner-button {*/
+    /*    margin-top: 4px;*/
+    /*}*/
+
+    /*.slider__banner-title {*/
+    /*    animation: moveToLeft 1.5s 1;*/
+    /*    font-size: 1.8rem;*/
+    /*    line-height: 20px;*/
+    /*}*/
+
+    /*.slider__button {*/
+    /*    background-color: var(--color-Black);*/
+    /*    font-size: 0.8rem;*/
+    /*    padding: 5px 12px;*/
+    /*    margin-top: 18px;*/
+    /*}*/
+
+}
+
+/*========== mobile M==========*/
+@media (min-width: 1024px) {
+
 }
