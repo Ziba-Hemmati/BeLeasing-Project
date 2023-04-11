@@ -140,10 +140,14 @@
 .product {
     background-color: var(--color-Light-Gray);
     padding: 100px 0 125px 0;
+    display: flex;
+    justify-content: center;
 }
+
 .products-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .products__title {
@@ -152,14 +156,13 @@
     line-height: 23px;
 }
 
-.products__line{
+.products__line {
     margin: 55px 0 45px 0;
     background-color: #e1dede;
 }
 
 /*========== products card ==========*/
-.product__card{
-    overflow: hidden;
+.product__card {
     margin-bottom: 40px;
 }
 
@@ -183,7 +186,7 @@
     color: var(--color-Black);
 }
 
-.product__card-title{
+.product__card-title {
     font-family: Poppins-Bold, sans-serif;
     font-size: 1.9rem;
     line-height: 23px;
@@ -191,13 +194,17 @@
 }
 
 .product__card-price {
-    font-family: Poppins-Normal,sans-serif;
+    font-family: Poppins-Normal, sans-serif;
     font-size: 1.6rem;
     line-height: 20px;
     margin-top: 15px;
 }
 
-/*========== products card ==========*/
+/*========== products button ==========*/
+.products__button-container {
+    width: 100%;
+}
+
 .products__button {
     font-family: DM-Sans-Bold, sans-serif;
     font-size: 1.7rem;
@@ -213,39 +220,119 @@
 /*=================== responsive ===================*/
 /*========== mobile L==========*/
 @media (min-width: 425px) {
-    /*========== slider banner ==========*/
-    /*.slider__banner-container {*/
+    /*=================== products ===================*/
+    .product {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+    }
 
-    /*}*/
+    .products-container {
+        max-width: 480px;
+    }
 
-    /*.slider__banner {*/
-    /*    padding: 20px;*/
-    /*    animation: moveToRight 1s;*/
-    /*    width: 50%;*/
-    /*    height: 50%;*/
-    /*    align-self: flex-end;*/
-    /*}*/
+    .products__title {
+        font-size: 2.4rem;
+        line-height: 29px;
+    }
 
-    /*.slider__banner-button {*/
-    /*    margin-top: 4px;*/
-    /*}*/
+    /*========== products card ==========*/
+    .product__card-title {
+        font-size: 2.4rem;
+        line-height: 29px;
+    }
 
-    /*.slider__banner-title {*/
-    /*    animation: moveToLeft 1.5s 1;*/
-    /*    font-size: 1.8rem;*/
-    /*    line-height: 20px;*/
-    /*}*/
+    .product__card-price {
+        font-size: 2rem;
+        line-height: 26px;
+        margin: 15px 0;
+    }
 
-    /*.slider__button {*/
-    /*    background-color: var(--color-Black);*/
-    /*    font-size: 0.8rem;*/
-    /*    padding: 5px 12px;*/
-    /*    margin-top: 18px;*/
-    /*}*/
+    /*========== products button ==========*/
+    .products__button {
+        padding: 14px 30px;
+        margin: 40px 0;
+    }
 
+}
+
+/*========== tabet ==========*/
+@media (min-width: 768px) {
+    /*=================== products ===================*/
+    .products-container {
+        max-width: 708px;
+        padding: 0;
+    }
+
+    .products__title {
+        font-size: 3.2rem;
+        line-height: 38px;
+        width: 35%;
+        padding-bottom: 40px;
+    }
+
+    .products__line {
+        margin: 0 0 40px 0;
+        width: 65%;
+        align-self: center;
+    }
+
+    /*========== products card ==========*/
+    .product__cards {
+        display: flex;
+    }
+
+    .product__card-container {
+        margin: 0 8px;
+    }
+
+    .product__card {
+        margin-bottom: 40px;
+    }
+
+    .product__description {
+        padding: 20px 25px;
+    }
+
+    .product__card-title {
+        font-size: 2.7rem;
+        line-height: 32px;
+    }
+
+    .product__card-price {
+        font-size: 2.2rem;
+        line-height: 29px;
+    }
+
+    /*========== products button ==========*/
+    .products__button-container {
+        width: 31%;
+    }
 }
 
 /*========== mobile M==========*/
 @media (min-width: 1024px) {
+    /*!*=================== products ===================*!*/
+    .products-container {
+        max-width: 940px;
+    }
 
+    .products__title {
+        width: 30%;
+    }
+
+    /*========== products card ==========*/
+    .product__description {
+        padding: 25px 35px;
+    }
+
+    .product__card-title {
+        font-size: 3.2rem;
+        line-height: 38px;
+    }
+
+    .product__card-price {
+        font-size: 2.6rem;
+        line-height: 34px;
+    }
 }
