@@ -2,7 +2,6 @@
 * {
   font-family: var(--font-Poppins-Normal);
 }
-
 .topoutset {
   background-color: var(--color-Light-Gray);
 }
@@ -112,4 +111,118 @@
 }
 .boldtext {
   font-weight: bold;
+}
+.third-section {
+  background-color: var(--color-Light-Gray);
+  padding: 75px 33px 30px;
+}
+.third-section__image img {
+  width: 100%;
+  margin-top: 16px;
+}
+.third-section__h2 {
+  font-size: 2rem;
+  line-height: 40px;
+}
+.third-section__h3 {
+  margin: 40px 0;
+}
+.third-section__p {
+  font-size: 0.8rem;
+  padding-bottom: 20px;
+}
+.fourth-section {
+  padding: 0 33px;
+}
+.fourth-section__first-card {
+  text-align: center;
+  padding: 50px 4px 0;
+}
+.number {
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: var(--color-Purple);
+}
+.first-card__title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 20px 40px 40px;
+}
+.first-card__p {
+  font-family: var(--font-DM-Sans-Normal);
+  font-size: 0.82rem;
+  font-weight: bold;
+}
+.items__check {
+  display: flex;
+  align-items: center;
+  padding: 6px 0;
+}
+.first-card__items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+  font-size: 0.82rem;
+}
+.check--purple {
+  color: var(--color-Purple);
+  margin-right: 8px;
+}
+.text--purple {
+  color: var(--color-Purple);
+}
+.first-card__btn {
+  border: none;
+  background-color: var(--color-Purple);
+  padding: 10px 40px;
+  color: var(--color-White);
+  font-weight: 500;
+  font-size: 1.1rem;
+  margin: 30px 0;
+}
+.fourth-section__second-card,
+.fourth-section__third-card {
+  text-align: center;
+}
+.fifth-section {
+  background-color: #0a0a0a;
+}
+.fifth-section {
+  padding: 75px 33px 35px;
+}
+.fifth-section__title {
+  color: var(--color-White);
+  font-size: 1.2rem;
+  padding: 20px 0 0;
+}
+.fifth-section__border {
+  border: 1px solid var(--color-Light-Gray);
+  margin: 50px 0;
+}
+.fifth-section__p {
+  background-color: var(--color-Blue-HighLight);
+  font-size: 0.82rem;
+  margin: 12px 0;
+  padding: 4px 0;
+  border-radius: 4px;
+  text-indent: 6px;
+}
+.fifth-section__suggest {
+  color: var(--color-Light-Blue);
+  font-size: 0.8rem;
+  padding: 12px 0 2px;
+  font-family: var(--font-DM-Sans-Normal);
+}
+.fa-phone,
+.fifth-section__phone-num {
+  color: var(--color-White);
+  font-size: 1.2rem;
+  padding: 0 2px;
+  margin-left: 4px;
+}
+.fifth-section__phone {
+  display: flex;
+  align-items: center;
+  padding-bottom: 30px;
 }
