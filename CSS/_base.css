@@ -1,8 +1,28 @@
+/* -----css reset----- */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: 10px;
 }
+*:focus {
+  outline: none;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+button,
+input[type="submit"] {
+  cursor: pointer;
+  border: none;
+}
+
+/* -----fonts----- */
+
 @font-face {
   font-family: "Poppins-Normal";
   src: url(../Assets/Fonts/Poppins-Normal.woff2);
@@ -27,6 +47,8 @@
   font-family: "DM-Sans-Bolder";
   src: url(../Assets/Fonts/DM-Sans-Bolder.woff2);
 }
+/* -----root----- */
+
 :root {
   --font-Poppins-Normal: "Poppins-Normal";
   --font-Poppins-Bold: "Poppins-Bold";
