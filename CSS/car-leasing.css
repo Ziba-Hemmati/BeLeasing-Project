@@ -1,0 +1,75 @@
+@import url(_base.css);
+
+body {
+    font-family: "Poppins-Normal", arial, serif;
+}
+
+.container {
+    background-color: #F4F3F5;
+    width: 100%;
+}
+
+.topic-page {
+    display: flex;
+    justify-content: center;
+}
+
+.sub-page {
+    width: 70%;
+}
+
+.page {
+    color: #00aab1;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: "DM-Sans-Normal";
+}
+
+.title {
+    font-size: 41px;
+    font-weight: 500;
+    font-family: "Poppins-Bold";
+}
+
+.section-line {
+    display: flex;
+    ;
+    justify-content: center;
+}
+
+.line {
+    width: 80%;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+/* Block component */
+.card {}
+
+/* Element that depends upon the block */
+.card__link {
+    width: 400px;
+    height: 350px;
+    overflow: hidden;
+}
+
+.card__image {
+    transition: transform 0.25s;
+}
+
+.card__description {}
+
+.card__amount {}
+
+/* Modifier that changes the style of the block */
+.card__link--hover:hover {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
