@@ -9,6 +9,9 @@
 }
 
 .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     padding: 0 32px;
 }
 
@@ -144,12 +147,6 @@
     justify-content: center;
 }
 
-.products-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
 .products__title {
     font-family: Poppins-Bold, sans-serif;
     font-size: 1.9rem;
@@ -217,8 +214,72 @@
     margin: 40px 0 20px;
 }
 
+/*=================== calculate ===================*/
+.calculate {
+    padding: 5px 0 75px;
+    display: flex;
+    justify-content: center;
+}
+
+.calculate__info {
+    padding-top: 60px;
+}
+
+.calculate__subtitle {
+    color: var(--color-Light-Blue);
+    font-family: DM-Sans-Bolder, sans-serif;
+    font-size: 1.3rem;
+    line-height: 100%;
+}
+
+.calculate__title {
+    font-family: Poppins-Bold, sans-serif;
+    font-size: 3.2rem;
+    line-height: 38px;
+    margin: 15px 0 45px;
+}
+
+.calculate__highLight {
+    display: flex;
+    flex-direction: column;
+    font-family: DM-Sans-Normal, sans-serif;
+    line-height: 19px;
+    font-size: 1.3rem;
+    text-indent: 7px;
+    width: 85%;
+}
+
+.calculate__highLight--padding {
+    background-color: var(--color-Blue-HighLight);
+}
+
+.calculate__description {
+    padding: 20px 0 35px 0;
+    font-family: DM-Sans-Normal, sans-serif;
+    line-height: 19px;
+    font-size: 1.3rem;
+}
+
+.calculate__description--bold {
+    font-family: DM-Sans-Bolder, sans-serif;
+}
+
+.calculate__button {
+    display: flex;
+}
+
+.calculate__button-link {
+    font-family: DM-Sans-Bold, sans-serif;
+    font-size: 1.7rem;
+    line-height: 17px;
+    color: var(--color-White);
+    background-color: var(--color-Black);
+    padding: 14px 30px;
+}
+
+
 /*=================== responsive ===================*/
-/*========== mobile L==========*/
+/*========== mobile L ==========*/
 @media (min-width: 425px) {
     /*=================== products ===================*/
     .product {
@@ -227,7 +288,7 @@
         align-self: center;
     }
 
-    .products-container {
+    .container {
         max-width: 480px;
     }
 
@@ -256,10 +317,10 @@
 
 }
 
-/*========== tabet ==========*/
+/*========== tablet ==========*/
 @media (min-width: 768px) {
     /*=================== products ===================*/
-    .products-container {
+    .container {
         max-width: 708px;
         padding: 0;
     }
@@ -308,13 +369,40 @@
     .products__button-container {
         width: 31%;
     }
+
+    /*=================== calculate ===================*/
+    .calculate {
+        padding: 10px 0 95px;
+        justify-content: flex-start;
+    }
+
+    .calculate__mobile-container {
+        width: 26%;
+        margin-top: -45px;
+        margin-right: 50px;
+    }
+
+    .calculate__info {
+        width: 40%;
+        padding: 0;
+    }
+
+    .calculate__title {
+        font-size: 4.6rem;
+        line-height: 54px;
+    }
+
+    .calculate__description {
+        padding-bottom: 55px;
+    }
 }
 
 /*========== mobile M==========*/
 @media (min-width: 1024px) {
     /*!*=================== products ===================*!*/
-    .products-container {
-        max-width: 940px;
+    .container {
+        max-width: 1220px;
+        padding: 0 40px;
     }
 
     .products__title {
@@ -334,5 +422,36 @@
     .product__card-price {
         font-size: 2.6rem;
         line-height: 34px;
+    }
+
+    /*=================== calculate ===================*/
+    .calculate__mobile-container {
+        margin-top: -55px;
+        margin-right: 58px;
+    }
+
+    .calculate__info {
+        width: 40%;
+        padding: 0;
+    }
+
+    .calculate__subtitle {
+        font-size: 1.5rem;
+        line-height: 27px;
+    }
+
+    .calculate__title {
+        font-size: 5.4rem;
+        line-height: 64px;
+    }
+
+    .calculate__highLight {
+        font-size: 1.5rem;
+        line-height: 27px;
+    }
+
+    .calculate__description {
+        font-size: 1.5rem;
+        line-height: 27px;
     }
 }
