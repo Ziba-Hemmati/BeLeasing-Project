@@ -87,10 +87,37 @@
     color: var(--color-White);
     font-family: var(--font-DM-Sans-Normal);
 }
+
 .section-second{
     width: 100%;
     height: auto;
     background-color: var(--color-Dark-Gray);
-    padding-top: 100px;
+    padding-top: 120px;
     padding-bottom: 50px;
+    background-image: url(../Assets/Images/Details/leasing-bg-logo.jpg);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    display: flex;
+    flex-direction: column;
+}
+.section-second-text{
+    font-family: var(--font-DM-Sans-Normal);
+    padding-left: 30px;
+    padding-bottom: 30px;
+    font-size: 1.5rem;
+}
+.leasing-about-icon{
+    padding-left: 50px;
+    padding-top: 30px;
+}
+.Individual{
+    font-family: var(--font-Poppins-Bolder);
+    font-size: 1.3rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.text-Attachment{
+    font-family: var(--font-Poppins-Normal);
+    font-size: 1.2rem;
 }
