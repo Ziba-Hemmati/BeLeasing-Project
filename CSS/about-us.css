@@ -1,0 +1,96 @@
+@import "../CSS/_base.css";
+
+.container{
+    width: 100%;
+    height: auto;
+}
+.section{
+    width: 100%;
+    padding: 100px 35px 30px 40px;
+    background-color: var(--color-Light-Gray) ;
+}
+.about{
+    color: var(--color-Light-Blue);
+    font-family: var(--font-Poppins-Bold);
+    font-size:1.4rem ;
+    margin: 0 0 20px;
+}
+.text{
+    font-family: var(--font-Poppins-Normal);
+    font-size: 3.4rem;
+    margin: 0 0 20px;
+}
+.section-first{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.belease{
+    font-family: var(--font-DM-Sans-Normal);
+    font-size: 1.8rem;
+    margin: 0 0 20px;
+}
+.title{
+    margin: 0 0 20px;
+    font-size: 1.1rem;
+    font-family: var(--font-DM-Sans-Normal);
+}
+.scroll{
+    color: var(--color-Purple);
+    font-family: var(--font-DM-Sans-Normal);
+    font-size: 1.3rem;
+}
+.scroll:hover{
+    text-decoration: underline;
+}
+.title-container{
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    background-color: var(--color-White);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.image-man{
+    width: 100%;
+
+}
+.text-item{
+    padding: 40px;
+}
+.first-step{
+    font-family: var(--font-DM-Sans-Normal);
+    font-size: 2rem;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+.lorem{
+    font-family: var(--font-Poppins-Normal) ;
+    font-size: 1.1rem;
+    line-height: 16px;
+    margin-bottom: 20px;
+}
+.image-woman{
+    width: 100%;
+
+}
+.section-three{
+    width: 100%;
+    height: auto;
+    background-color: var(--color-Light-Gray);
+}
+.button{
+    width: 80px;
+    height: 40px;
+    background-color: var(--color-Black);
+    color: var(--color-White);
+    font-family: var(--font-DM-Sans-Normal);
+}
+.section-second{
+    width: 100%;
+    height: auto;
+    background-color: var(--color-Dark-Gray);
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
