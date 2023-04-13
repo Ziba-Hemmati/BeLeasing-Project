@@ -1,4 +1,6 @@
-
+body{
+    font-family: var(--font-DM-Sans-Normal);
+}
 .main-contact {
     width: 100%;
     height: 100%;
@@ -32,17 +34,17 @@
     font-family: var(--font-Poppins-Bold);
 }
 .box__message__btn{
-    width: 120px;
     background-color: var(--color-Black);
-    padding: 8px 10px;
+    padding: 14px 30px;
     margin-top: 20px;
     border: none;
 }
 .box__message__btn a{
     color: var(--color-White);
     text-decoration: none;
-    font-family: var(--font-DM-Sans-Bold);
+    font-family: var(--font-Jost);
     font-size: 1.5rem;
+    font-weight: 500;
 }
 /*end box__message*/
 .contact{
@@ -55,7 +57,7 @@
     line-height: 20px;
 }
 .contact__tel p,.contact__email p{
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     padding: 20px 0;
 }
 .contact__tel,.contact__email {
@@ -64,5 +66,23 @@
 }
 .contact__tel img, .contact__email i{
     margin-right: 7px;
-    width: 16px;
+    width: 18px;
+    font-size: 14px
+}
+.line{
+    border-top: 1px solid var(--color-Dark-Gray);
+    margin: 0 auto 75px;
+}
+.contact__time h3{
+    font-size: 1.9rem;
+    font-family: var(--font-Poppins-Bold);
+    font-weight: 500;
+}
+.contact__time--margin{
+    margin-bottom: 35px;
+}
+.contact__time p{
+    font-size: 1.3rem;
+    margin: 0 0 15px;
+
 }

@@ -4,10 +4,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 10px;
 }
 *:focus {
   outline: none;
+}
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
 }
 ul {
   list-style: none;
@@ -47,6 +50,11 @@ input[type="submit"] {
   font-family: "DM-Sans-Bolder";
   src: url(../Assets/Fonts/DM-Sans-Bolder.woff2);
 }
+@font-face {
+  font-family: "Jost";
+  src: url(../Assets/Fonts/Jost.woff2);
+}
+
 /* -----root----- */
 
 :root {
@@ -56,6 +64,7 @@ input[type="submit"] {
   --font-DM-Sans-Normal: "DM-Sans-Normal";
   --font-DM-Sans-Bold: "DM-Sans-Bold";
   --font-DM-Sans-Bolder: "DM-Sans-Bolder";
+  --font-Jost: "Jost";
   --color-White: #ffffff;
   --color-Light-Gray: #f4f3f5;
   --color-Gray: #e0dcdc;
