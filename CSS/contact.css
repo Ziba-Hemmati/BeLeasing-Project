@@ -86,3 +86,37 @@ body{
     margin: 0 0 15px;
 
 }
+.form{
+    background-color: var(--color-Dark-Gray);
+    padding: 40px 25px 25px;
+}
+.form input{
+    margin-bottom: 18px;
+    width: 100%;
+    padding: 15px;
+    border: none;
+}
+.form input::placeholder{
+
+}
+.form textarea{
+    resize: none;
+    padding: 10px;
+    outline: none;
+    max-width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    font-size: 14px;
+    border: none;
+}
+.form__btn{
+    width: 100%;
+    font-family: var(--font-Jost);
+    font-size: 1.7rem;
+    font-weight: 500;
+    padding: 14px 30px;
+   border: none;
+    background-color: var(--color-Black);
+    color: var(--color-White);
+    margin: 0 10px 15px 0;
+}
