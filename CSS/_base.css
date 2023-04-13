@@ -50,6 +50,11 @@ input[type="submit"] {
   font-family: "DM-Sans-Bolder";
   src: url(../Assets/Fonts/DM-Sans-Bolder.woff2);
 }
+@font-face {
+  font-family: "Jost";
+  src: url(../Assets/Fonts/Jost.woff2);
+}
+
 /* -----root----- */
 
 :root {
