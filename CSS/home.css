@@ -159,8 +159,14 @@
 }
 
 /*========== products card ==========*/
+.product__card-container {
+    padding-bottom: 40px;
+}
+
 .product__card {
-    margin-bottom: 40px;
+    background-color: var(--color-White);
+    color: var(--color-Black);
+    height: 100%;
 }
 
 .product__image {
@@ -179,8 +185,6 @@
 
 .product__description {
     padding: 25px 35px;
-    background-color: var(--color-White);
-    color: var(--color-Black);
 }
 
 .product__card-title {
@@ -203,8 +207,9 @@
 }
 
 .products__button {
-    font-family: DM-Sans-Bold, sans-serif;
+    font-family: Jost, sans-serif;
     font-size: 1.7rem;
+    font-weight: 500;
     display: block;
     text-align: center;
     line-height: 17px;
@@ -249,7 +254,6 @@
     font-family: DM-Sans-Normal, sans-serif;
     line-height: 19px;
     font-size: 1.3rem;
-    text-indent: 7px;
     width: 90%;
 
 }
@@ -278,14 +282,40 @@
 }
 
 .calculate__button-link {
-    font-family: DM-Sans-Bold, sans-serif;
+    font-family: Jost, sans-serif;
     font-size: 1.7rem;
+    font-weight: 500;
     line-height: 17px;
     color: var(--color-White);
     background-color: var(--color-Black);
     padding: 14px 30px;
 }
 
+/*=================== responsive ===================*/
+.popular {
+    background-color: var(--color-Black);
+    color: var(--color-White);
+    padding: 120px 0 80px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.popular-container {
+    padding: 0 42px;
+}
+
+.popular__subtitle{
+    font-family: DM-Sans-Normal, sans-serif;
+    font-size: 1.3rem;
+    line-height: 19px;
+}
+
+.popular__title {
+    font-family: Poppins-Bolder, sans-serif;
+    font-size: 3.8rem;
+    line-height: 38px;
+    margin: 15px 0 65px;
+}
 
 /*=================== responsive ===================*/
 /*========== mobile L ==========*/
@@ -350,14 +380,11 @@
     /*========== products card ==========*/
     .product__cards {
         display: flex;
+        margin-bottom: 40px;
     }
 
     .product__card-container {
         margin: 0 8px;
-    }
-
-    .product__card {
-        margin-bottom: 40px;
     }
 
     .product__description {
@@ -410,7 +437,7 @@
 @media (min-width: 1024px) {
     /*!*=================== products ===================*!*/
     .container {
-        max-width: 920px;
+        max-width: 1200px;
         padding: 0 40px;
     }
 
@@ -466,15 +493,5 @@
     .calculate__description {
         font-size: 1.5rem;
         line-height: 27px;
-    }
-}
-
-@media (min-width: 1200px) {
-    .products-container {
-        max-width: 1200px;
-    }
-
-    .calculate {
-        padding-left: 80px;
     }
 }
