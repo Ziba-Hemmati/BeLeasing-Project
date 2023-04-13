@@ -17,10 +17,10 @@
     <div class="back__header">
         <div class="box__message">
             <div>
-                <p class="box__message__text">
+                <h2 class="box__message__text">
                     Any questions?
                     Contact us.
-                </p>
+                </h2>
             </div>
             <div>
                 <button class="box__message__btn"><a href="#">Message</a></button>
@@ -28,44 +28,56 @@
         </div>
     </div>
     <div class="contact">
-        <div>
-            <div class="contact__address">
-                <p>
+        <div class="information">
+            <div class="information__address">
+                <h3>
                     Level 13, 2 Elizabeth St,
-                </p>
-                <p> Melbourne, Victoria </p>
-                <p> Australia</p>
+                </h3>
+                <h3> Melbourne, Victoria </h3>
+                <h3> Australia</h3>
             </div>
-            <div class="contact__tel">
-                <span><img src="../Assets/Images/Contact/icons8-phone-24.png"></span>
+            <div class="information__tel">
+                <span><img src="../Assets/Images/Contact/phone.svg"></span>
                 <p>+91 &nbsp;203949422</p>
             </div>
-            <div class="contact__email">
+            <div class="information__email">
                 <i class="fa-sharp fa-solid fa-envelope" ></i>
                 <p>noreply@envato.com</p>
             </div>
         </div>
         <div class="line"></div>
-        <div class="contact__time">
-            <h3>Monday — Friday</h3>
-               <h3 class="contact__time--margin"> 09:00 AM — 06:00 PM</h3>
-            <p>
-                Suspendisse in ante vel mauris molestie luctus. Morbi nec lorem dui. Cras ultrices ipsum nec lectus
-                finibus
-                vulputate.
-            </p>
-            <p>
-                Donec mauris metus, suscipit vel rhoncus tincidunt, ullamcorper ut sem. Proin malesuada faucibus lectus,
-                sit amet vehicula mauris tempus eget.
-            </p>
-        </div>
-        <form class="form">
-            <input id="name" placeholder="Name">
-            <input id="email" placeholder="Email">
-            <input id="subject" placeholder="Subject">
-            <textarea id="message" cols="40" rows="10">Your Message</textarea>
+<div class="card__bottom">
+    <div class="contact__time">
+        <h3>Monday — Friday</h3>
+        <h3 class="contact__time--margin"> 09:00 AM — 06:00 PM</h3>
+        <p>
+            Suspendisse in ante vel mauris molestie luctus. Morbi nec lorem dui. Cras ultrices ipsum nec lectus
+            finibus
+            vulputate.
+        </p>
+        <p>
+            Donec mauris metus, suscipit vel rhoncus tincidunt, ullamcorper ut sem. Proin malesuada faucibus lectus,
+            sit amet vehicula mauris tempus eget.
+        </p>
+    </div>
+    <div class="form">
+        <form>
+            <div>
+                <input id="name" placeholder="Name">
+            </div>
+            <div class="form__email__sub">
+                <div class="form__email">
+                    <input id="email" placeholder="Email">
+                </div>
+                <div class="form__subject">
+                    <input id="subject" placeholder="Subject">
+                </div>
+            </div>
+            <textarea id="message" cols="40" rows="10" placeholder="Your Message"></textarea>
             <button class="form__btn">Send</button>
         </form>
+    </div>
+</div>
 </div>
 </div>
 </body>

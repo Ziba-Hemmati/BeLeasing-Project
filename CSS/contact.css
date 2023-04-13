@@ -26,16 +26,16 @@ body{
 .box__message{
     width: 80%;
     background-color: rgba(143,26,164,0.8);
-    padding: 40px 50px;
+    padding:50px;
 }
 .box__message__text{
     color: var(--color-White);
     font-size: 3rem;
-    font-family: var(--font-Poppins-Bold);
+    font-family: var(--font-Poppins-Normal);
 }
 .box__message__btn{
     background-color: var(--color-Black);
-    padding: 14px 30px;
+    padding: 12px 32px;
     margin-top: 20px;
     border: none;
 }
@@ -51,27 +51,27 @@ body{
     width: 80%;
     padding: 50px 0;
 }
-.contact__address p{
+.information__address h3{
     font-size: 1.8rem;
-    font-family: var(--font-Poppins-Bold);
+    font-family: var(--font-Poppins-Normal);
     line-height: 20px;
 }
-.contact__tel p,.contact__email p{
+.information__tel p,.information__email p{
     font-size: 1.6rem;
     padding: 20px 0;
 }
-.contact__tel,.contact__email {
+.information__tel,.information__email {
     display: flex;
     align-items: center;
 }
-.contact__tel img, .contact__email i{
+.information__tel img, .information__email i{
     margin-right: 7px;
-    width: 18px;
+    width: 14px;
     font-size: 14px
 }
 .line{
     border-top: 1px solid var(--color-Dark-Gray);
-    margin: 0 auto 75px;
+    margin: 12px auto 65px;
 }
 .contact__time h3{
     font-size: 1.9rem;
@@ -86,6 +86,9 @@ body{
     margin: 0 0 15px;
 
 }
+.contact__time{
+    margin-bottom: 35px;
+}
 .form{
     background-color: var(--color-Dark-Gray);
     padding: 40px 25px 25px;
@@ -96,10 +99,11 @@ body{
     padding: 15px;
     border: none;
 }
-.form input::placeholder{
-
+.form input::placeholder,.form textarea::placeholder{
+    color: var(--color-Black);
 }
 .form textarea{
+    width: 100%;
     resize: none;
     padding: 10px;
     outline: none;
@@ -108,15 +112,119 @@ body{
     margin-bottom: 20px;
     font-size: 14px;
     border: none;
+    line-height: 20px;
+
 }
 .form__btn{
     width: 100%;
     font-family: var(--font-Jost);
     font-size: 1.7rem;
     font-weight: 500;
-    padding: 14px 30px;
+    padding: 10px;
    border: none;
     background-color: var(--color-Black);
     color: var(--color-White);
     margin: 0 10px 15px 0;
+}
+@media only screen and (min-width: 768px){
+    .contact{
+        width: 94%;
+    }
+.back__header{
+    background-position: center bottom;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 25px;
+}
+    .box__message{
+        width: 48%;
+        margin-left: 20px;
+    }
+    .box__message__text{
+        font-size: 4.6rem;
+        padding: 0 50px 30px 0;
+        line-height: 55px;
+    }
+    .information{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 40px;
+    }
+
+    .information__address h3{
+        font-size: 2.1rem;
+        line-height: 32px;
+    }
+    .information__tel img{
+        width: 22px;
+    }
+    .information__email i{
+        font-size: 22px;
+    }
+    .information__tel ,.information__email{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .information__tel p,.information__email p{
+        font-size: 2.2rem;
+    }
+    .card__bottom{
+        display: flex;
+        justify-content: space-around;
+    }
+    .form{
+        width: 55%;
+        display: flex;
+    }
+    .contact__time{
+        width: 35%;
+    }
+    .contact__time h3{
+        font-size: 2.7rem;
+    }
+    .contact__time p{
+        line-height: 23px;
+    }
+    .form__email__sub{
+        display: flex;
+        justify-content: space-between;
+    }
+    .form__email , .form__subject{
+        width: 49%;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .box__message{
+        padding: 50px 50px 30px 50px;
+        width: 43%;
+        margin-left: 84px;
+    }
+    .box__message__text{
+        font-size: 5.4rem;
+        line-height: 64px;
+        font-weight: 500;
+    }
+    .box__message__btn{
+        margin: 0 1% 40px;
+    }
+    .information__address h3 {
+        font-size: 3.2rem;
+        line-height: 38px;
+        font-weight: 600;
+    }
+    .information__tel p,.information__email p{
+        font-size: 2.6rem;
+    }
+    .contact__time h3{
+        font-size: 3.1rem;
+        line-height: 38px;
+    }
+    .contact__time p{
+        font-size: 1.5rem;
+    }
+    form{
+        width: 100%;
+    }
 }
