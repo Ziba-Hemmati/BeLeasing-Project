@@ -490,3 +490,72 @@
     font-size: 1.2rem;
   }
 }
+
+/* media query -- laptop */
+
+@media (min-width: 1024px) {
+  .top-outset__header,
+  .description__h2 {
+    font-size: 5.4rem;
+  }
+  .outset__h3,
+  .description__h3 {
+    font-size: 3.2rem;
+  }
+  .outset__p,
+  .outset-price span,
+  .description__p,
+  .comparison__p,
+  .items-container {
+    font-size: 1.5rem;
+  }
+  .outset-price h3,
+  .contact__phone-num,
+  .comparison__title,
+  .contact__title,
+  .contact__title--font {
+    font-size: 3.2rem;
+  }
+  .specifications-container__h4 {
+    font-size: 2.1rem;
+  }
+  .specifications__titels,
+  .quipments__titels {
+    font-size: 1.6rem;
+  }
+  .specifications__values,
+  .specifications__content,
+  .equipments__content,
+  .fa-check,
+  .equipments__values,
+  .contact__suggest
+  {
+    font-size: 1.5rem;
+  }
+  .description__content {
+    padding-right: 90px;
+  }
+  .comparison__number {
+    font-size: 6.4rem;
+  }
+  .contact__phone-container {
+    padding-left: 110px;
+  }
+  .contact__p {
+    font-size: 1.9rem;
+  }
+  .fa-phone {
+    font-size: 2.2rem;
+    padding-right: 10px;
+  }
+  .specifications__content--bold, 
+  .specifications__content--italic,
+  .equipments__content--bold, 
+  .equipments__content--underline {
+    line-height: 28px;
+  }
+  .specifications__content,
+  .equipments__content {
+    padding: 0 10px 0 60px;
+  }
+}
