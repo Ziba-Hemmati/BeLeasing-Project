@@ -1,169 +1,197 @@
 @import "_base.css";
-* {
+.container {
   font-family: var(--font-Poppins-Normal);
 }
-.topoutset {
+.top-outset {
   background-color: var(--color-Light-Gray);
 }
-.topcontent {
-  width: 100vw;
-  padding: 100px 33px 0;
-}
-.background {
+.top-outset__background {
   background-image: url(../Assets/Images/Details/leasing-bg-logo.jpg);
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: right;
   width: 100%;
-  height: 280px;
 }
-.buy-now {
-  font-size: 0.82rem;
+.top-outset__content {
+  padding: 100px 33px 50px;
+}
+.top-outset__content--color {
+  font-family: var(--font-DM-Sans-Normal);
+  font-size: 1.3rem;
   font-weight: bold;
   color: var(--color-Light-Blue);
-  padding-bottom: 10px;
+  margin-bottom: 15px;
 }
-.outset-header {
-  font-size: 2rem;
-  padding-bottom: 35px;
-  line-height: 40px;
+.top-outset__header {
+  font-size: 3.2rem;
+  margin-bottom: 15px;
 }
 .outset {
   background-color: var(--color-Light-Gray);
-  padding: 0 33px 55px;
+  padding: 0 33px;
 }
 .swiper-wrapper img {
   width: 100%;
 }
 .outset-content {
-  padding: 0 12px;
-  margin-top: 60px;
+  padding: 60px 18px 80px;
 }
-.outside-h3 {
-  font-size: 1.2rem;
-  margin-bottom: 36px;
+.outset__h3 {
+  font-size: 1.9rem;
+  margin-bottom: 40px;
+  padding: 0 200px 0 0;
 }
-.outside-p {
-  font-size: 0.8rem;
-  margin-bottom: 36px;
+.outset__p {
+  font-family: var(--font-DM-Sans-Normal);
+  font-size: 1.3rem;
+  margin-bottom: 40px;
 }
-.outside-price {
+.outset-price {
   display: flex;
   align-items: center;
   font-size: 1.2rem;
-  margin-bottom: 30px;
+  margin-bottom: 34px;
 }
-.outside-price span {
-  margin-right: 15px;
-  font-size: 0.8rem;
+.outset-price span {
+  font-family: var(--color-White);
+  font-size: 1.3rem;
+  padding-right: 16px;
 }
-.outside-btn {
-  border: none;
+.outset-price h3 {
+  font-size: 1.9rem;
+}
+.outset__button {
+  font-family: var(--font-Jost);
+  font-size: 1.7rem;
   background-color: var(--color-Light-Blue);
   color: var(--color-White);
-  font-size: 1.1rem;
-  padding: 12px 30px;
+  padding: 10px 34px;
 }
-.secondary {
-  padding: 100px 33px;
+
+/* The second section of the website : Specifications of Mercedes-Benz G-Class  */
+
+.specifications-container {
+  padding: 100px 33px 70px;
   text-align: center;
 }
-.secondary-left {
+.specifications__items,
+.equipments__items {
   display: flex;
   flex-direction: column;
+  padding: 0 10px;
 }
-.border {
-  border: 1px solid var(--color-Dark-Gray);
-  margin-bottom: 15px;
+.specifications__items h4,
+.equipments__items h4 {
+  font-size: 1.3rem;
+  padding: 0 4px 60px;
 }
-.secondary-left h4 {
-  font-size: 0.8rem;
-  padding-bottom: 60px;
+.specifications__border,
+.equipments__border {
+  border: 1px solid #d6d6d6;
+  margin-bottom: 16px;
 }
-.space {
-  padding: 0 0 15px;
-  font-size: 0.8rem;
+.specifications__titels,
+.specifications__values,
+.equipments__titels,
+.equipments__values {
+  font-family: var(--font-DM-Sans-Normal);
+  font-size: 1.3rem;
+  padding: 0 0 18px;
 }
-.item {
+.specifications__titels,
+.equipments__titels {
   font-weight: bold;
 }
-.secondary-right {
-  font-size: 0.84rem;
-  padding-top: 30px;
+.specifications__content,
+.equipments__content {
+  font-family: var(--font-DM-Sans-Normal);
+  font-size: 1.3rem;
+  padding: 30px 10px 0;
 }
-.secondary-first-content {
+.specifications__content--bold,
+.equipments__content--underline {
   margin-bottom: 15px;
   font-family: var(--font-DM-Sans-Normal);
 }
-.secondary-second-content {
-  font-style: italic;
-}
-.special {
+.specifications__content--bold span {
   font-weight: bold;
+}
+.specifications__content--italic {
+  font-style: italic;
+  font-family: var(--font-DM-Sans-Normal);
+  margin-bottom: 100px;
 }
 .fa-check {
   color: var(--color-Light-Blue);
+  font-size: 1.2rem;
 }
-.h4 {
-  padding: 100px 0 0;
-}
-.underline {
+.equipments__content--underline span {
   text-decoration: underline;
 }
-.boldtext {
+.equipments__content--bold span {
   font-weight: bold;
 }
-.third-section {
+
+/* The third section of the website */
+
+.description {
   background-color: var(--color-Light-Gray);
-  padding: 75px 33px 30px;
+  padding: 75px 33px 50px;
 }
-.third-section__image img {
+.description__image img {
   width: 100%;
-  margin-top: 16px;
+  padding-top: 16px;
 }
-.third-section__h2 {
-  font-size: 2rem;
-  line-height: 40px;
+.description__h2 {
+  font-size: 3.2rem;
 }
-.third-section__h3 {
+.description__h3 {
+  font-size: 1.9rem;
   margin: 40px 0;
 }
-.third-section__p {
-  font-size: 0.8rem;
+.description__p {
+  font-family: var(--font-DM-Sans-Normal);
+  font-size: 1.3rem;
   padding-bottom: 20px;
 }
-.fourth-section {
+
+/* The fourth section of the website */
+
+.comparison {
   padding: 0 33px;
 }
-.fourth-section__first-card {
+.comparison__cards {
   text-align: center;
   padding: 50px 4px 0;
 }
-.number {
-  font-size: 2.4rem;
+.comparison__number {
+  font-size: 3.8rem;
   font-weight: bold;
   color: var(--color-Purple);
 }
-.first-card__title {
-  font-size: 1.2rem;
+.comparison__title {
+  font-size: 1.9rem;
   font-weight: bold;
   padding: 20px 40px 40px;
+  width: 230px;
+  margin: 0 auto;
 }
-.first-card__p {
+.comparison__p {
   font-family: var(--font-DM-Sans-Normal);
-  font-size: 0.82rem;
-  font-weight: bold;
+  font-size: 1.3rem;
 }
-.items__check {
-  display: flex;
-  align-items: center;
-  padding: 6px 0;
-}
-.first-card__items {
+.comparison__items {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 40px 0;
-  font-size: 0.82rem;
+  padding: 40px 0 20px;
+  font-family: var(--font-DM-Sans-Normal);
+  font-size: 1.3rem;
+}
+.items-container {
+  display: flex;
+  align-items: center;
+  padding: 6px 0;
 }
 .check--purple {
   color: var(--color-Purple);
@@ -172,57 +200,64 @@
 .text--purple {
   color: var(--color-Purple);
 }
-.first-card__btn {
-  border: none;
+.comparison__button {
+  font-family: var(--font-Jost);
   background-color: var(--color-Purple);
-  padding: 10px 40px;
+  padding: 10px 30px;
   color: var(--color-White);
   font-weight: 500;
-  font-size: 1.1rem;
-  margin: 30px 0;
+  font-size: 1.7rem;
+  margin: 30px 0 10px;
 }
-.fourth-section__second-card,
-.fourth-section__third-card {
-  text-align: center;
-}
-.fifth-section {
+
+/* The fifth section of the website */
+
+.contact {
   background-color: #0a0a0a;
+  padding: 60px 33px 30px;
 }
-.fifth-section {
-  padding: 75px 33px 35px;
-}
-.fifth-section__title {
+.contact__title {
+  font-family: var(--font-DM-Sans-Normal);
   color: var(--color-White);
-  font-size: 1.2rem;
-  padding: 20px 0 0;
+  font-size: 1.9rem;
+  padding: 20px 140px 0 0;
 }
-.fifth-section__border {
+.contact__border {
   border: 1px solid var(--color-Light-Gray);
   margin: 50px 0;
 }
-.fifth-section__p {
+.contact__p {
   background-color: var(--color-Blue-HighLight);
-  font-size: 0.82rem;
+  width: fit-content;
+  font-size: 1.3rem;
   margin: 12px 0;
-  padding: 4px 0;
+  padding: 2px 4px;
   border-radius: 4px;
   text-indent: 6px;
 }
-.fifth-section__suggest {
+.contact__title--font {
+  color: var(--color-White);
+  font-size: 1.9rem;
+  padding: 20px 0 10px;
+}
+.contact__suggest {
   color: var(--color-Light-Blue);
-  font-size: 0.8rem;
+  font-size: 1.3rem;
   padding: 12px 0 2px;
   font-family: var(--font-DM-Sans-Normal);
 }
-.fa-phone,
-.fifth-section__phone-num {
-  color: var(--color-White);
-  font-size: 1.2rem;
-  padding: 0 2px;
-  margin-left: 4px;
-}
-.fifth-section__phone {
+.contact__phone {
   display: flex;
   align-items: center;
   padding-bottom: 30px;
+}
+.fa-phone,
+.contact__phone-num {
+  color: var(--color-White);
+  font-size: 1.9rem;
+  padding: 0 2px;
+  margin-left: 6px;
+}
+.fa-phone {
+  font-size: 1.4rem;
 }
