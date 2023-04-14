@@ -263,6 +263,9 @@
 .fa-phone {
   font-size: 1.4rem;
 }
+.box-container {
+  display: none;
+}
 
 /* media query -- tablet */
 
@@ -306,7 +309,7 @@
   }
 
   /* The second section of the website */
-  
+
   .specifications,
   .equipments {
     display: flex;
@@ -429,5 +432,61 @@
   }
   .contact__phone-num {
     font-size: 2.6rem;
+  }
+  .box-container {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 0;
+    bottom: 70px;
+  }
+  @keyframes opacity {
+    50% {
+      opacity: 0.3;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .black-box {
+    width: 70px;
+    height: 70px;
+    background-color: var(--color-Black);
+    color: var(--color-White);
+    border-radius: 4px 0 0 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6px;
+  }
+  .black-box__h3 {
+    font-size: 1.8rem;
+    animation-name: opacity;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+  }
+  .black-box__p {
+    font-size: 1.2rem;
+    animation-name: opacity;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+  }
+  .green-box {
+    width: 70px;
+    height: 70px;
+    background-color: var(--color-Light-Green);
+    border-radius: 4px 0 0 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .green-box__img {
+    width: 30px;
+  }
+  .green-box__p {
+    color: var(--color-White);
+    font-size: 1.2rem;
   }
 }
