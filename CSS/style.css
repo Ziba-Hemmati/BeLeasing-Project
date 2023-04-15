@@ -1,0 +1,33 @@
+@import "_base.css";
+body {
+  height: 200vh;
+}
+.header-container {
+  background-color: var(--color-Black);
+  color: var(--color-White);
+  height: 60px;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-img {
+  width: 150px;
+}
+.fa-bars {
+  font-size: 2rem;
+  padding-right: 4px;
+}
+.navbar {
+  font-family: var(--font-DM-Sans-Normal);
+  font-size: 1.3rem;
+  font-weight: bold;
+  background-color: var(--color-Black);
+  color: var(--color-White);
+}
+.navbar ul li {
+  padding: 25px;
+}
+.navbar {
+  display: none;
+}
