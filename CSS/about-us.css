@@ -59,6 +59,9 @@
 .text-item{
     padding: 40px;
 }
+.image-woman{
+    width: 100%;
+}
 .first-step{
     font-family: var(--font-DM-Sans-Normal);
     font-size: 2rem;
@@ -71,10 +74,7 @@
     line-height: 16px;
     margin-bottom: 20px;
 }
-.image-woman{
-    width: 100%;
 
-}
 .section-three{
     width: 100%;
     height: auto;
@@ -121,3 +121,46 @@
     font-family: var(--font-Poppins-Normal);
     font-size: 1.2rem;
 }
+.last-part{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Welcome{
+    font-family: var(--font-Poppins-Bold);
+    font-size: 2.5rem;
+    display: flex;
+    
+}
+.last-text{
+    font-family: var(--font-Poppins-Normal);
+    font-size: 1.5rem;
+}
+.last-lorem{
+    font-family: var(--font-Poppins-Normal) ;
+    font-size: 1.1rem;
+    line-height: 16px;
+    margin-bottom: 20px;
+}
+.image-team{
+    width: 80%;
+}
+.button-contac{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-Purple);
+    color: var(--color-White);
+    padding: 15px 30px 15px 30px;
+    font-family: var(--font-Jost);
+    display: inline-block;
+    font-size: 1.6rem;
+}
+@media (min-width : 425px) {
+    
+}
+
+
