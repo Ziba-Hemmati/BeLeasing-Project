@@ -4,10 +4,16 @@ body {
     font-family: "Poppins-Normal", arial, serif;
 }
 
+/* -----less than 425px----- */
+
+/* -----container----- */
+
 .container {
-    background-color: #F4F3F5;
+    background-color: var(--color-Light-Gray);
     width: 100%;
 }
+
+/* -----title-page----- */
 
 .topic-page {
     display: flex;
@@ -15,61 +21,114 @@ body {
 }
 
 .sub-page {
-    width: 70%;
+    width: 400px;
+    margin: 100px 0 40px 0;
 }
 
 .page {
-    color: #00aab1;
+    color: var(--color-Light-Blue);
     font-size: 13px;
     font-weight: 700;
     font-family: "DM-Sans-Normal";
+    margin-bottom: 20px;
 }
 
 .title {
     font-size: 41px;
     font-weight: 500;
     font-family: "Poppins-Bold";
+    line-height: 48px;
 }
+
+/* -----line----- */
 
 .section-line {
     display: flex;
-    ;
-    justify-content: center;
 }
 
 .line {
-    width: 80%;
+    margin: auto;
+    width: 412px;
+    height: 1.1px;
+    background-color: var(--color-Gray);
+    margin-bottom: 40px;
 }
+
+/* -----image-container----- */
 
 .image-container {
     display: flex;
+    align-items: center;
+    flex-direction: column;
     flex-wrap: wrap;
-    gap: 8px;
+    gap: 40px;
 }
 
-/* Block component */
-.card {}
+/* -----cards----- */
 
-/* Element that depends upon the block */
-.card__link {
-    width: 400px;
-    height: 350px;
+/* -----block component----- */
+
+.card {
+    background-color: var(--color-White);
+}
+
+.card__tile {
     overflow: hidden;
 }
 
+/* -----element that depends upon the block----- */
+
+.card__link--hover {
+    overflow: hidden;
+
+}
+
 .card__image {
+    width: 420px;
+    align-items: center;
+
+}
+
+.card__text {
+    padding: 20px 32px;
+}
+
+.card__title {
+    cursor: pointer;
+    font-size: 2.4rem;
+    font-family: "Poppins-Bold";
+}
+
+.card__description {
+    font-size: 2rem;
+    margin: 12px 0 20px 0;
+}
+
+/* -----,odifier that changes the style of the block----- */
+
+.card__link--hover:hover,
+.card__image:hover {
     transition: transform 0.25s;
+    overflow: hidden;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
 }
 
-.card__description {}
-
-.card__amount {}
-
-/* Modifier that changes the style of the block */
-.card__link--hover:hover {
-    transform: scale(1);
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
+.end-card {
+    height: 20px;
 }
+
+/* -----425px----- */
+
+@media (min-width: 425px) {}
+
+/* -----768px----- */
+
+@media (min-width: 768px) {}
+
+/* -----1024px----- */
+
+@media (min-width: 1024px) {}
