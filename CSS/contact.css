@@ -43,7 +43,7 @@ body{
     color: var(--color-White);
     text-decoration: none;
     font-family: var(--font-Jost);
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     font-weight: 500;
 }
 /*end box__message*/
@@ -54,11 +54,16 @@ body{
 .information__address h3{
     font-size: 1.8rem;
     font-family: var(--font-Poppins-Normal);
-    line-height: 20px;
+    line-height: 23px;
 }
+.information__tel{
+    padding: 30px 3px;
+}
+
 .information__tel h5,.information__email h5{
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     font-weight: 500;
+
 }
 .information__tel,.information__email {
     display: flex;
@@ -70,8 +75,9 @@ body{
     font-size: 14px
 }
 .line{
+    width: 94%;
     border-top: 1px solid var(--color-Dark-Gray);
-    margin: 12px auto 65px;
+    margin: 40px auto 65px;
 }
 .contact__time h3{
     font-size: 1.9rem;
@@ -128,7 +134,7 @@ body{
 }
 @media only screen and (min-width: 768px){
     .contact{
-        width: 94%;
+        width: 95%;
     }
 .back__header{
     background-position: center bottom;
@@ -149,13 +155,13 @@ body{
         display: flex;
         align-items: flex-start;
         justify-content: space-around;
-        margin-bottom: 40px;
     }
     .information__address{
         width: 40%;
     }
     .information__tel{
         width: 20%;
+        padding: 0;
     }
     .information__address h3{
         font-size: 2.1rem;
@@ -172,6 +178,9 @@ body{
         flex-direction: column;
         align-items: flex-start;
     }
+     .information__email h5{
+         padding: 5px 0;
+     }
     .information__tel h5,.information__email h5{
         font-size: 2.2rem;
     }
@@ -234,11 +243,16 @@ body{
     }
 }
 @media only screen and (min-width: 1440px) {
+    .contact{
+        width: 90%;
+    }
     .information__email{
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: space-around;
+    }
+    .information__email h5{
+        padding: 0;
     }
     .information__email i{
        margin-right: 15px;
