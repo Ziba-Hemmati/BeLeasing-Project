@@ -152,14 +152,13 @@
 }
 .image-team{
     width: 100%;
-  /* padding: 30px;*/
 }
 .button-contact-container{
     display: flex;
     justify-content: center;
     padding-top: 50px;
 }
-.button-contat{
+.button-contact{
    width: 90%;
     background-color: var(--color-Purple);
     color: var(--color-White);
