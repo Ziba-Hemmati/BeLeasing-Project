@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeLeasing-Betheme</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="shortcut icon" href="../Assets/Images/Header&Footer/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="header-container" id="header-container">
+        <div><img src="../Assets/Images/Header&Footer/leasing-logo-retina-2x.jpg" alt="leasing-logo"></div>
+        <div>
+            <a class="icon" onclick="burgerMenuHandler()">
+                <i class="fa-solid fa-bars"></i>
+            </a>
+        </div>
+        <div class="topnav" id="myTopnav">
+            <a onclick="activeMenuHandler('home')" class="active" id="home" href="./home.html">Home</a>
+            <a onclick="activeMenuHandler('about-us')" id="about-us" href="./about-us.html">About us</a>
+            <a onclick="activeMenuHandler('car-leasing')" id="car-leasing" href="./car-leasing.html">Car leasing</a>
+            <a onclick="activeMenuHandler('details')" id="details" href="./details.html">Details</a>
+            <a onclick="activeMenuHandler('contact')" id="contact" href="./contact.html">Contact</a>
+            <a onclick="activeMenuHandler('buy-now')" id="buy-now" href="#">Buy now
+            </a>
+        </div>
+    </div>
+    <div id="page-content">
+    </div>
+    <script src="../JavaScript/header.js"></script>
+</body>
+
+</html>

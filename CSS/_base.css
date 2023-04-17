@@ -64,7 +64,6 @@ input[type="submit"] {
   --font-DM-Sans-Normal: "DM-Sans-Normal";
   --font-DM-Sans-Bold: "DM-Sans-Bold";
   --font-DM-Sans-Bolder: "DM-Sans-Bolder";
-  --font-Jost: "Jost";
   --color-White: #ffffff;
   --color-Light-Gray: #f4f3f5;
   --color-Gray: #e0dcdc;
@@ -74,5 +73,6 @@ input[type="submit"] {
   --color-Light-Blue: #00aab1;
   --color-Dark-Blue: #1e2b6f;
   --color-Purple: #802e8f;
+  --color-Light-Purple: #8f1aa4;
   --color-Black: #000000;
 }

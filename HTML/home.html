@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="../Assets/Images/Home/icon.png">
+    <link rel="stylesheet" href="../CSS/home.css">
+    <title>BeLeasing – Betheme</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="header-container" id="header-container">
+        <div><img src="../Assets/Images/Header&Footer/leasing-logo-retina-2x.jpg" alt="leasing-logo"></div>
+        <div>
+            <a class="icon" onclick="burgerMenuHandler()">
+                <i class="fa-solid fa-bars"></i>
+            </a>
+        </div>
+        <div class="topnav" id="myTopnav">
+            <a onclick="activeMenuHandler('home')" class="active" id="home" href="./home.html">Home</a>
+            <a onclick="activeMenuHandler('about-us')" id="about-us" href="./about-us.html">About us</a>
+            <a onclick="activeMenuHandler('car-leasing')" id="car-leasing" href="./car-leasing.html">Car leasing</a>
+            <a onclick="activeMenuHandler('details')" id="details" href="./details.html">Details</a>
+            <a onclick="activeMenuHandler('contact')" id="contact" href="./contact.html">Contact</a>
+            <a onclick="activeMenuHandler('buy-now')" id="buy-now" href="#">Buy now
+            </a>
+        </div>
+    </div>
+    <div id="page-content">
+
+        <div class="main">
+            <!--slider-->
+            <div class="slider">
+
+                <div class="slider__image-container">
+                    <img class="slider__image" src="../Assets/Images/Home/leasing-slider-bg.jpg" alt="leasing slider">
+                </div>
+
+                <div class="slider__banner-container row">
+                    <div class="slider__banner">
+                        <div class="slider__banner-title">
+                            Finding you the best car leasing
+                        </div>
+                        <div class="slider__banner-button">
+                            <a class="slider__button" href="#">More</a>
+                        </div>
+                    </div>
+                    <div class="slider__arrow-container">
+                        <div class="slider__line-container">
+                            <div class="slider__line"></div>
+                        </div>
+                        <div class="slider__arrow">
+                            <span class="slider__arrow-text">SCROLL FOR MORE</span>
+                            <img class="slider__arrow-image" src="../Assets/Images/Home/leasing-slider-arrow.png"
+                                alt=arrow"">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--products-->
+            <div class="product row">
+                <div class="products-container container">
+                    <div class="products__title-container row">
+                        <div class="products__title">
+                            Cars in stock
+                        </div>
+                        <div class="products__line line"></div>
+                    </div>
+
+                    <div class="product__cards">
+                        <div class="product__card-container">
+                            <div class="product__card">
+                                <div class="product__image">
+                                    <a class="product__image-link" href="./car-leasing.html">
+                                        <img class="row" src="../Assets/Images/Home/leasing-portfolio-pic9.jpg"
+                                            alt="Mercedes Benz Silver Knight">
+                                    </a>
+                                </div>
+                                <div class="product__description">
+                                    <div>
+                                        <a class="product__card-title" href="./car-leasing.html">
+                                            Mercedes Benz Silver Knight
+                                        </a>
+                                    </div>
+                                    <div class="product__card-price">
+                                        $5,115
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product__card-container">
+                            <div class="product__card">
+                                <div class="product__image">
+                                    <a class="product__image-link" href="./car-leasing.html">
+                                        <img class="row" src="../Assets/Images/Home/leasing-portfolio-pic8.jpg"
+                                            alt="Audi A1 Contrast Edition">
+                                    </a>
+                                </div>
+                                <div class="product__description">
+                                    <div>
+                                        <a class="product__card-title" href="./car-leasing.html">
+                                            Audi A1 Contrast Edition
+                                        </a>
+                                    </div>
+                                    <div class="product__card-price">
+                                        $1,115
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product__card-container">
+                            <div class="product__card">
+                                <div class="product__image">
+                                    <a class="product__image-link" href="./car-leasing.html">
+                                        <img class="row" src="../Assets/Images/Home/leasing-portfolio-pic7.jpg"
+                                            alt="BMW 4 GT Full Silver Edition">
+                                    </a>
+                                </div>
+                                <div class="product__description">
+                                    <div>
+                                        <a class="product__card-title" href="./car-leasing.html">
+                                            BMW 4 GT Full Silver Edition
+                                        </a>
+                                    </div>
+                                    <div class="product__card-price">
+                                        $2,115
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="products__button-container">
+                        <a class="products__button" href="./car-leasing.html">See more</a>
+                    </div>
+                </div>
+            </div>
+
+            <!--calculate-->
+            <div class="calculate row">
+                <div class="calculate-container container">
+                    <div class="calculate__mobile-container">
+                        <div class="calculate__mobile">
+                            <img class="row" src="../Assets/Images/Home/leasing-calculator.png" alt="calculator">
+                        </div>
+
+                    </div>
+                    <div class="calculate__info">
+                        <div class="calculate__subtitle">Smart calculator</div>
+                        <div class="calculate__title">How much did you pay?</div>
+                        <div class="calculate__highLight">
+                            <p class="calculate__highLight--padding">&nbsp; Lorem ipsum dolor sit amet</p>
+                        </div>
+                        <div class="calculate__highLight">
+                            <p class="calculate__highLight--padding">&nbsp; Suspendisse in ante vel mauris molestie
+                                luctus
+                            </p>
+                        </div>
+                        <div class="calculate__description"><span class="calculate__description--bold">Mauris rhoncus
+                                orci</span> in imperdiet placerat.
+                            Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna maximus.
+                        </div>
+                        <div class="calculate__button row">
+                            <a class="calculate__button-link" href="./about-us.html">More</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!--popular-->
+            <div class="popular row">
+                <div class="popular-container container">
+                    <div class="popular__info">
+                        <div class="popular__subtitle">Welcome to BeLease</div>
+                        <div class="popular__title">Most popular</div>
+                    </div>
+                    <div class="popular__images">
+                        <div class="popular__image-big">
+                            <img class="popular__image row" src="../Assets/Images/Home/leasing-single-1.jpg"
+                                alt="Mercedes G Class">
+                            <div class="popular__image-shadow">
+                                <a class="popular__image-link" href="./car-leasing.html">
+                                    <p>Mercedes</p>
+                                    <p>G Class</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="popular__images-small">
+                            <div class="popular__image-small">
+                                <img class="popular__image row" src="../Assets/Images/Home/leasing-portfolio-pic1.jpg"
+                                    alt="Toyota 4Runner SUV">
+                                <div class="popular__image-shadow">
+                                    <a class="popular__image-link" href="./car-leasing.html">Toyota 4Runner SUV</a>
+                                </div>
+                            </div>
+                            <div class="popular__image-small">
+                                <img class="popular__image row" src="../Assets/Images/Home/leasing-portfolio-pic2.jpg"
+                                    alt="Mercedes-Benz AMG GT">
+                                <div class="popular__image-shadow">
+                                    <a class="popular__image-link" href="./car-leasing.html">Mercedes-Benz AMG GT</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--popular-->
+            <div class="about row">
+                <div class="about-container container">
+                    <div class="about__title">
+                        Join the conversation. Join us.
+                    </div>
+                    <div class="about__content">
+                        <div class="about__description">
+                            <div class="about__description-title">
+                                We are Belease — Since our launch in 2005.
+                            </div>
+                            <div class="about__description-text">
+                                Nulla mauris dolor, gravida a varius blandit.
+                            </div>
+                            <div class="about__description-button">
+                                <a class="about__button" href="./about-us.html">About us</a>
+                            </div>
+                        </div>
+                        <div class="about__image">
+                            <img class="row" src="../Assets/Images/Home/leasing-man-with-case.jpg" alt="man with case">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--popular-->
+            <div class="features row">
+                <div class="features-container container">
+                    <div class="features__items">
+                        <div class="features__item">
+                            <div class="feature__item-number">1</div>
+                            <div class="feature__item-title">Regular Price
+                                Updates
+                            </div>
+                            <div class="feature__item-description">Ut ultricies imperdiet sodales. Aliquam fringilla
+                                aliquam
+                                ex
+                                sit amet elementum.
+                            </div>
+                        </div>
+                        <div class="features__item">
+                            <div class="feature__item-number">2</div>
+                            <div class="feature__item-title">Best Finance Options</div>
+                            <div class="feature__item-description">Ut ultricies imperdiet sodales. Aliquam fringilla
+                                aliquam
+                                ex
+                                sit amet elementum.
+                            </div>
+                        </div>
+                        <div class="features__item">
+                            <div class="feature__item-number">3</div>
+                            <div class="feature__item-title">Huge Savings</div>
+                            <div class="feature__item-description">Ut ultricies imperdiet sodales. Aliquam fringilla
+                                aliquam
+                                ex
+                                sit amet elementum.
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="features__button row">
+                    <a class="features__button-link row" href="./contact.html">Click here to start a chat</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="../JavaScript/header.js"></script>
+</body>
+
+</html>

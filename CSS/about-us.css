@@ -1,0 +1,446 @@
+@import "../CSS/_base.css";
+
+.container{
+    width: 100%;
+    height: auto;
+}
+.section-container{
+    width: 100%;
+    padding: 100px 33px 55px 33px;
+    background-color: var(--color-Dark-Gray) ;
+    display: flex;
+    flex-direction: column;
+}
+.section{
+    width: 100%;
+}
+.about{
+    color: var(--color-Light-Blue);
+    font-family: var(--font-Poppins-Bold);
+    font-size:1.2rem ;
+    margin: 0 0 20px;
+}
+.text{
+    font-family: var(--font-Poppins-Normal);
+    font-size: 3.2rem;
+    margin: 0 0 15px;
+}
+.section-first{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.belease{
+    font-family: var(--font-DM-Sans-Normal);
+    font-size: 1.8rem;
+    margin: 0 0 20px;
+}
+.title{
+    margin: 0 0 20px;
+    font-size: 1.1rem;
+    font-family: var(--font-DM-Sans-Normal);
+}
+.scroll{
+    color: var(--color-Purple);
+    font-family: var(--font-DM-Sans-Normal);
+    font-size: 1.3rem;
+}
+.scroll:hover{
+    text-decoration: underline;
+}
+.title-container{
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color: var(--color-White);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.text-item{
+    padding: 30px;
+}
+.image-man{
+    width: 100%;
+}
+.first-step{
+    font-family: var(--font-Poppins-Normal);
+    font-size: 2rem;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+.lorem{
+    font-family: var(--font-Poppins-Normal) ;
+    font-size: 1.1rem;
+    line-height: 16px;
+    margin-bottom: 20px;
+}
+.button{
+    width: 100px;
+    height: 45px;
+    background-color: var(--color-Black);
+    color: var(--color-White);
+    font-family: var(--font-Jost);
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+.image-woman{
+    width: 100%;
+}
+.section-second{
+    width: 100%;
+    background-color: var(--color-Dark-Gray);
+    padding-bottom: 50px;
+    background-image: url(../Assets/Images/Details/leasing-bg-logo.jpg);
+    background-position: left -30px top 40px;
+    background-repeat: no-repeat;
+    background-size: 260px;
+    display: flex;
+    flex-direction: column;
+}
+.section-second-text{
+    font-family: var(--font-Poppins-Normal);
+    padding-left: 50px;
+    padding-top: 120px;
+    padding-bottom: 30px;
+    font-size: 1.6rem;
+}
+
+.leasing-about-icon{
+    padding: 50px;
+}
+.Individual{
+    font-family: var(--font-Poppins-Bold);
+    font-size: 1.3rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.text-Attachment{
+    font-family: var(--font-DM-Sans-Normal);
+    font-size: 1.3rem;
+}
+.section-three-container{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.section-text{
+    padding: 40px;
+}
+.Welcome{
+    font-family: var(--font-Poppins-Normal);
+    font-size: 3.2rem;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+.last-text{
+    font-family: var(--font-Poppins-Normal);
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+}
+.last-lorem{
+    font-family: var(--font-DM-Sans-Normal) ;
+    font-size: 1.2rem;
+    line-height: 16px;
+    line-height: 20px;
+}  
+.last-part{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.image-team{
+    width: 100%;
+   padding: 30px;
+}
+.button-contac-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.button-contac{
+   width: 90%;
+    background-color: var(--color-Purple);
+    color: var(--color-White);
+    padding: 12px 28px 12px 28px;
+    font-family: var(--font-Jost);
+    font-size: 1.6rem;
+}
+@media (min-width: 426px) and (max-width: 767px) {
+    .section-container{
+         padding: 100px 80px 50px 80px;
+    }
+    .text{
+        font-family: var(--font-Poppins-Normal);
+        font-size: 3.8rem;
+    }
+    .belease{
+        font-family: var(--font-Poppins-Normal);
+         font-size: 2.2rem;
+    }
+    .text-item{
+        padding: 100px;
+    }
+    .section-second{
+        padding: 80px;
+    }
+    .section-second-text{
+        font-size: 2rem;
+    }
+    .section-three-container{
+        padding: 80px;
+    }
+    .title{
+        font-size: 1.35rem;
+    }
+}
+@media  (min-width: 768px) and (max-width:1023px) {
+    .container{
+        width: 100%;
+    }
+    .section-container{
+        display: flex;
+        flex-direction: row;
+       padding-left: 50px;
+        padding-right: 50px;
+    }
+    .section{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 30px;
+    }
+    .section-about{
+        width: 50%;
+    }
+    .text{
+        font-family: var(--font-Poppins-Normal);
+        font-size: 4rem;
+    }
+    .section-first{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        padding:0 50px;
+    }
+    .belease{
+        font-family: var(--font-Poppins-Normal);
+         font-size: 2.8rem;
+    }
+    .first-step{
+        font-size: 3rem;
+        padding-top: 30px;
+    }
+   .image{
+       width: 50%; 
+       padding: 20px;
+    }
+    .text-items{
+         width: 50%;
+         padding: 20px;
+    }
+    .title-container{
+        display: flex;
+        flex-direction: row;
+        padding-top: 100px;
+    }
+    .section-second{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-second-text{
+        font-size:2.5rem ;
+    }
+    .Individual{
+        font-size: 1.8rem;
+    }
+    .leasing-about{
+        display: flex;
+        flex-direction: row;
+    }
+    .text-item{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-content: space-between;
+    }
+    .section-three{
+        display: flex;
+        flex-direction: row;
+    }
+    .Welcome{
+        font-size: 4.5rem;
+    }
+    .last-text{
+        font-size: 2.5rem;
+    }
+    .last-lorem{
+        font-size:1.4rem ;
+    }
+    .last-part{
+        display: flex;
+        flex-direction: row;
+        padding-left: 30px;
+    }
+    .button-contac-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-text{
+        width: 50%;
+        padding: 40px;
+    }
+    .last-part{
+        width: 50%;
+        margin-bottom: 120px;
+        padding: 20px;
+    }
+    .button-contac{
+        width: 30%;
+       
+    }
+    .button-container{
+        padding-top: 30px;
+    }
+}
+@media  (min-width: 1024px){
+    .container{
+        width: 100%;
+    }
+    .section-container{
+        display: flex;
+        flex-direction: row;
+        padding-left: 30px;
+        padding-right: 50px;
+    }
+    .section{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 30px;
+    }
+    .about{
+        font-size: 1.5rem;
+    }
+    .section-about{
+        width: 60%;
+        padding: 0 130px;
+    }
+    .text{
+        font-family: var(--font-Poppins-Normal);
+        font-size: 5rem;
+    }
+    .section-first{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        padding: 0 80px;
+    }
+    .title{
+        font-size: 1.5rem;
+    }
+    .scroll{
+        font-size: 1.6rem;
+    }
+    .belease{
+        font-family: var(--font-Poppins-Normal);
+         font-size: 2.8rem;
+    }
+    .lorem{
+        font-size:1.3rem;
+        line-height: 24px;
+    }
+    .first-step{
+        font-size: 3.5rem;
+        padding-top: 30px;
+    }
+    .text-item{
+        padding: 80px;
+    }
+   .image{
+       width: 50%; 
+       padding: 45px;
+    }
+    .text-items{
+         width: 50%;
+         padding: 45px;
+    }
+    .title-container{
+        display: flex;
+        flex-direction: row;
+        padding-top: 100px;
+    }
+    .section-second{
+        display: flex;
+        flex-direction: column;
+        padding: 80px;
+    }
+    .section-second-text{
+        font-size:2.5rem ;
+    }
+    .Individual{
+        font-size: 2rem;
+    }
+    .text-Attachment{
+        font-size: 1.4rem;
+    }
+    .leasing-about{
+        display: flex;
+        flex-direction: row;
+    }
+    .leasing-about-icon{
+        padding: 80px;
+    }
+    .text-item{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-content: space-between;
+    }
+    .section-three{
+        display: flex;
+        flex-direction: row;
+    }
+    .Welcome{
+        font-size: 5rem;
+    }
+    .last-text{
+        font-size: 3rem;
+    }
+    .last-lorem{
+        font-size:1.5rem ;
+        line-height: 24px;
+    }
+    .last-part{
+        display: flex;
+        flex-direction: row;
+        padding-left: 30px;
+    }
+    .button-contac-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-three{
+        padding: 60px;
+    }
+    .section-text{
+        width: 50%;
+        padding: 40px;
+    }
+    .last-part{
+        width: 50%;
+        padding: 20px;
+    }
+    .button-contac{
+        width: 30%;
+       
+    }
+    .button-container{
+        padding-top: 30px;
+    }
+}
