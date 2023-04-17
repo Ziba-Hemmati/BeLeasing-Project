@@ -7,147 +7,182 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/car-leasing.css">
     <title>car-leasing</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="shortcut icon" href="../Assets/Images/Header&Footer/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
 
-    <!-------------container------------->
-
-    <div class="container">
-
-        <!-------------title-page------------->
-
-        <div class="topic-page">
-            <div class="sub-page">
-                <p class="page">Car leasing</p>
-                <h2 class="title">Choose the perfect car for you</h2>
-            </div>
+    <div class="header-container" id="header-container">
+        <div><img src="../Assets/Images/Header&Footer/leasing-logo-retina-2x.jpg" alt="leasing-logo"></div>
+        <div>
+            <a class="icon" onclick="burgerMenuHandler()">
+                <i class="fa-solid fa-bars"></i>
+            </a>
         </div>
-
-        <!-------------line------------->
-
-        <div class="section-line">
-            <div class="line"></div>
-        </div>
-
-        <!-------------image-container------------->
-
-        <div class="card-container">
-
-            <!-------------cards------------->
-
-            <div class="card">
-                <div class="card__tile">
-                    <a href="#" class="card__link--hover">
-                        <img class="card__image" src="../Assets/Images/Car-Leasing/leasing-portfolio-pic9.jpg" alt="">
-                    </a>
-                </div>
-                <div class="card__text">
-                    <a class="card__title">Mercedes Benz Silver Knight</a>
-                    <p class="card__description">$5,115</p>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card__tile">
-                    <a href="#" class="card__link--hover">
-                        <img class="card__image" src="../Assets/Images/Car-Leasing/leasing-portfolio-pic8.jpg" alt="">
-                    </a>
-                </div>
-                <div class="card__text">
-                    <a class="card__title">Audi A1 Contrast Edition</a>
-                    <p class="card__description">$1,115</p>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card__tile">
-                    <a href="#" class="card__link--hover">
-                        <img class="card__image" src="../Assets/Images/Car-Leasing/leasing-portfolio-pic7.jpg" alt="">
-                    </a>
-                </div>
-                <div class="card__text">
-                    <a class="card__title">BMW 4 GT Full Silver Edition</a>
-                    <p class="card__description">$2,115</p>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card__tile">
-                    <a href="#" class="card__link--hover">
-                        <img class="card__image" src="../Assets/Images/Car-Leasing/leasing-portfolio-pic6.jpg" alt="">
-                    </a>
-                </div>
-                <div class="card__text">
-                    <a class="card__title">BMW 2 Series Coupe</a>
-                    <p class="card__description">$2,115</p>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card__tile">
-                    <a href="#" class="card__link--hover">
-                        <img class="card__image" src="../Assets/Images/Car-Leasing/leasing-portfolio-pic5.jpg" alt="">
-                    </a>
-                </div>
-                <div class="card__text">
-                    <a class="card__title">Jeep Grand Cherokee</a>
-                    <p class="card__description">$4,115</p>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card__tile">
-                    <a href="#" class="card__link--hover">
-                        <img class="card__image" src="../Assets/Images/Car-Leasing/leasing-portfolio-pic4.jpg" alt="">
-                    </a>
-                </div>
-                <div class="card__text">
-                    <a class="card__title">Mercedes-Benz C-Class</a>
-                    <p class="card__description">$1,389</p>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card__tile">
-                    <a href="#" class="card__link--hover">
-                        <img class="card__image" src="../Assets/Images/Car-Leasing/leasing-portfolio-pic2.jpg" alt="">
-                    </a>
-                </div>
-                <div class="card__text">
-                    <a class="card__title">Mercedes-Benz AMG GT</a>
-                    <p class="card__description">$3,989</p>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card__tile">
-                    <a href="#" class="card__link--hover">
-                        <img class="card__image" src="../Assets/Images/Car-Leasing/leasing-portfolio-pic1.jpg" alt="">
-                    </a>
-                </div>
-                <div class="card__text">
-                    <a class="card__title">Toyota 4Runner SUV</a>
-                    <p class="card__description">$1,989</p>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card__tile">
-                    <a href="#" class="card__link--hover">
-                        <img class="card__image" src="../Assets/Images/Car-Leasing/leasing-single-1.jpg" alt="">
-                    </a>
-                </div>
-                <div class="card__text">
-                    <a class="card__title">Mercedes G Class</a>
-                    <p class="card__description">$2,289</p>
-                </div>
-
-            </div>
-            <div class="end-card"></div>
-
+        <div class="topnav" id="myTopnav">
+            <a onclick="activeMenuHandler('home')" class="active" id="home" href="./home.html">Home</a>
+            <a onclick="activeMenuHandler('about-us')" id="about-us" href="./about-us.html">About us</a>
+            <a onclick="activeMenuHandler('car-leasing')" id="car-leasing" href="./car-leasing.html">Car leasing</a>
+            <a onclick="activeMenuHandler('details')" id="details" href="./details.html">Details</a>
+            <a onclick="activeMenuHandler('contact')" id="contact" href="./contact.html">Contact</a>
+            <a onclick="activeMenuHandler('buy-now')" id="buy-now" href="#">Buy now
+            </a>
         </div>
     </div>
+
+    <div id="page-content">
+
+        <!-------------container------------->
+
+        <div class="container">
+
+            <!-------------title-page------------->
+
+            <div class="topic-page">
+                <div class="sub-page">
+                    <p class="page">Car leasing</p>
+                    <h2 class="title">Choose the perfect car for you</h2>
+                </div>
+            </div>
+
+            <!-------------line------------->
+
+            <div class="section-line">
+                <div class="line"></div>
+            </div>
+
+            <!-------------image-container------------->
+
+            <div class="card-container">
+
+                <!-------------cards------------->
+
+                <div class="card">
+                    <div class="card__tile">
+                        <a href="#" class="card__link--hover">
+                            <img class="card__image" src="../Assets/Images/Car-Leasing/leasing-portfolio-pic9.jpg"
+                                alt="">
+                        </a>
+                    </div>
+                    <div class="card__text">
+                        <a class="card__title">Mercedes Benz Silver Knight</a>
+                        <p class="card__description">$5,115</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__tile">
+                        <a href="#" class="card__link--hover">
+                            <img class="card__image" src="../Assets/Images/Car-Leasing/leasing-portfolio-pic8.jpg"
+                                alt="">
+                        </a>
+                    </div>
+                    <div class="card__text">
+                        <a class="card__title">Audi A1 Contrast Edition</a>
+                        <p class="card__description">$1,115</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__tile">
+                        <a href="#" class="card__link--hover">
+                            <img class="card__image" src="../Assets/Images/Car-Leasing/leasing-portfolio-pic7.jpg"
+                                alt="">
+                        </a>
+                    </div>
+                    <div class="card__text">
+                        <a class="card__title">BMW 4 GT Full Silver Edition</a>
+                        <p class="card__description">$2,115</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__tile">
+                        <a href="#" class="card__link--hover">
+                            <img class="card__image" src="../Assets/Images/Car-Leasing/leasing-portfolio-pic6.jpg"
+                                alt="">
+                        </a>
+                    </div>
+                    <div class="card__text">
+                        <a class="card__title">BMW 2 Series Coupe</a>
+                        <p class="card__description">$2,115</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__tile">
+                        <a href="#" class="card__link--hover">
+                            <img class="card__image" src="../Assets/Images/Car-Leasing/leasing-portfolio-pic5.jpg"
+                                alt="">
+                        </a>
+                    </div>
+                    <div class="card__text">
+                        <a class="card__title">Jeep Grand Cherokee</a>
+                        <p class="card__description">$4,115</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__tile">
+                        <a href="#" class="card__link--hover">
+                            <img class="card__image" src="../Assets/Images/Car-Leasing/leasing-portfolio-pic4.jpg"
+                                alt="">
+                        </a>
+                    </div>
+                    <div class="card__text">
+                        <a class="card__title">Mercedes-Benz C-Class</a>
+                        <p class="card__description">$1,389</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__tile">
+                        <a href="#" class="card__link--hover">
+                            <img class="card__image" src="../Assets/Images/Car-Leasing/leasing-portfolio-pic2.jpg"
+                                alt="">
+                        </a>
+                    </div>
+                    <div class="card__text">
+                        <a class="card__title">Mercedes-Benz AMG GT</a>
+                        <p class="card__description">$3,989</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__tile">
+                        <a href="#" class="card__link--hover">
+                            <img class="card__image" src="../Assets/Images/Car-Leasing/leasing-portfolio-pic1.jpg"
+                                alt="">
+                        </a>
+                    </div>
+                    <div class="card__text">
+                        <a class="card__title">Toyota 4Runner SUV</a>
+                        <p class="card__description">$1,989</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__tile">
+                        <a href="#" class="card__link--hover">
+                            <img class="card__image" src="../Assets/Images/Car-Leasing/leasing-single-1.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="card__text">
+                        <a class="card__title">Mercedes G Class</a>
+                        <p class="card__description">$2,289</p>
+                    </div>
+
+                </div>
+                <div class="end-card"></div>
+
+            </div>
+        </div>
+    </div>
+    <script src="../JavaScript/header.js"></script>
 </body>
 
 </html>

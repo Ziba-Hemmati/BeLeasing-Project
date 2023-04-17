@@ -4,6 +4,10 @@ body {
     font-family: "Poppins-Normal", arial, serif;
 }
 
+.header-container {
+    z-index: 2;
+}
+
 /* -----less than 425px----- */
 
 /* -----container----- */
