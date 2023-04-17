@@ -1,0 +1,294 @@
+@import url(_base.css);
+
+body {
+    font-family: "Poppins-Normal", arial, serif;
+}
+
+/* -----less than 425px----- */
+
+/* -----container----- */
+
+.container {
+    background-color: var(--color-Light-Gray);
+    width: 100%;
+}
+
+
+/* -----title-page----- */
+
+.topic-page {
+    width: 100%;
+    padding: 100px 36px 0px 36px;
+    display: flex;
+    justify-content: center;
+}
+
+.sub-page {
+    margin-bottom: 36px;
+}
+
+
+.page {
+    color: var(--color-Light-Blue);
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+    font-family: "DM-Sans-Normal";
+    margin-bottom: 16px;
+}
+
+.title {
+    font-size: 3.2rem;
+    font-weight: 500;
+    font-family: "Poppins-Bold";
+    line-height: 38px;
+}
+
+/* -----line----- */
+
+.section-line {
+    display: flex;
+    justify-content: center;
+}
+
+.line {
+    width: 80%;
+    height: 1.2px;
+    background-color: var(--color-Gray);
+    margin-bottom: 36px;
+}
+
+/* -----card-container----- */
+
+.card-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 40px;
+    width: 100%;
+}
+
+/* -----cards----- */
+/* -----block component----- */
+
+.card {
+    background-color: var(--color-White);
+    display: flex;
+    flex-direction: column;
+    width: 84%;
+}
+
+.card__tile {
+    overflow: hidden;
+}
+
+/* -----element that depends upon the block----- */
+
+.card__image {
+    width: 100%;
+    transition: transform 0.2s ease-in;
+    -webkit-transition: transform 0.2s ease-in;
+    -moz-transition: transform 0.2s ease-in;
+    -ms-transition: transform 0.2s ease-in;
+    -o-transition: transform 0.2s ease-in;
+}
+
+.card__text {
+    padding: 20px 34px;
+}
+
+.card__title {
+    cursor: pointer;
+    font-size: 1.9rem;
+    line-height: 24px;
+    font-family: "Poppins-Bold";
+}
+
+.card__description {
+    font-size: 1.6rem;
+    margin: 16px 0 20px 0;
+}
+
+/* -----,odifier that changes the style of the block----- */
+
+.card__link--hover:hover img {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.end-card {
+    width: 100%;
+    height: 16px;
+}
+
+/* -----425px----- */
+
+@media (min-width: 425px) {
+
+    .sub-page {
+        max-width: 480px;
+    }
+
+    .title {
+        font-size: 4.2rem;
+        line-height: 48px;
+    }
+
+    .line {
+        max-width: 480px;
+    }
+
+
+    .card {
+        max-width: 480px;
+        width: 90%;
+    }
+
+    .card__title {
+        font-size: 2.4rem;
+    }
+
+    .card__description {
+        font-size: 2rem;
+    }
+
+}
+
+/* -----768px----- */
+
+@media (min-width: 768px) {
+
+    .sub-page {
+        max-width: 710px;
+    }
+
+    .title {
+        font-size: 4.8rem;
+        line-height: 56px;
+        margin-bottom: 24px;
+    }
+
+    .line {
+        width: 90%;
+        max-width: 710px;
+    }
+
+    .card-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 40px 16px;
+    }
+
+    .card {
+        width: 230px;
+        height: 370px;
+        max-width: 700px;
+    }
+
+    .card__title {
+        font-size: 2.8rem;
+        line-height: 36px;
+    }
+
+}
+
+/* -----959px----- */
+
+@media (min-width: 959px) {
+
+    .topic-page {
+        justify-content: flex-start;
+    }
+
+    .sub-page {
+        max-width: 900px;
+        margin-left: 20px;
+    }
+
+    .page {
+        margin-bottom: 24px;
+        font-size: 1.4rem;
+    }
+
+    .title {
+        font-size: 5.5rem;
+        margin-bottom: 24px;
+    }
+
+    .line {
+        max-width: 900px;
+    }
+
+    .card {
+        width: 290px;
+        height: 410px;
+        max-width: 700px;
+    }
+
+    .card__title {
+        font-size: 3.2rem;
+        line-height: 36px;
+    }
+
+    .card__description {
+        font-size: 2.7rem;
+    }
+}
+
+/* -----1024px----- */
+
+@media (min-width: 1024px) {
+
+    .topic-page {
+        justify-content: center;
+    }
+
+    .sub-page {
+        max-width: 1000px;
+        margin-right: 150px;
+    }
+
+    .line {
+        width: 95%;
+        max-width: 1020px;
+    }
+
+    .card-container {
+        gap: 48px 26px;
+    }
+
+    .card {
+        width: 323px;
+        height: 450px;
+    }
+}
+
+/* -----1370px----- */
+
+@media (min-width: 1370px) {
+
+    .topic-page {
+        justify-content: center;
+    }
+
+    .sub-page {
+        max-width: 1000px;
+        margin-right: 350px;
+    }
+
+    .line {
+        max-width: 1200px;
+        margin-bottom: 40px;
+    }
+
+    .card {
+        width: 380px;
+        height: 450px;
+    }
+}
