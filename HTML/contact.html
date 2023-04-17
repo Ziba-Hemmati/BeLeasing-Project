@@ -5,14 +5,36 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../CSS/_base.css">
     <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
           integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
           referrerpolicy="no-referrer" rel="stylesheet"/>
     <link rel="stylesheet" href="../CSS/contact.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="shortcut icon" href="../Assets/Images/Header&Footer/favicon.ico">
+
     <title>Contact</title>
 </head>
 <body>
+<div class="header-container" id="header-container">
+    <div><img src="../Assets/Images/Header&Footer/leasing-logo-retina-2x.jpg" alt="leasing-logo"></div>
+    <div>
+        <a class="icon" onclick="burgerMenuHandler()">
+            <i class="fa-solid fa-bars"></i>
+        </a>
+    </div>
+    <div class="topnav" id="myTopnav">
+        <a onclick="activeMenuHandler('home')" class="active" id="home" href="./home.html">Home</a>
+        <a onclick="activeMenuHandler('about-us')" id="about-us" href="./about-us.html">About us</a>
+        <a onclick="activeMenuHandler('car-leasing')" id="car-leasing" href="./car-leasing.html">Car leasing</a>
+        <a onclick="activeMenuHandler('details')" id="details" href="./details.html">Details</a>
+        <a onclick="activeMenuHandler('contact')" id="contact" href="./contact.html">Contact</a>
+        <a onclick="activeMenuHandler('buy-now')" id="buy-now" href="#">Buy now
+        </a>
+    </div>
+</div>
+<div id="page-content">
+</div>
+<script src="../JavaScript/header.js"></script>
 <div class="main-contact">
     <div class="back__header">
         <div class="box__message">
@@ -27,7 +49,7 @@
             </div>
         </div>
     </div>
-    <div id="contact" class="contact">
+    <div id="Down" class="contact">
         <div class="information">
             <div class="information__address">
                 <h3>
@@ -69,7 +91,7 @@
             </div>
             <div class="form__email__sub">
                 <div class="form__email">
-                    <input id="email" placeholder="Email" required>
+                    <input id="mail" placeholder="Email" required>
                 </div>
                 <div class="form__subject">
                     <input id="subject" placeholder="Subject">
