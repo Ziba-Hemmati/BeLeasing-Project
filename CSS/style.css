@@ -1,6 +1,5 @@
 @import "_base.css";
 body {
-  height: 200vh;
   font-family: var(--font-DM-Sans-Normal);
 }
 .header-container {
@@ -72,7 +71,9 @@ body {
   .topnav a {
     font-size: 1.5rem;
   }
+  
 }
+
 @media screen and (max-width: 426px) {
   .header-container .icon {
     display: block;
