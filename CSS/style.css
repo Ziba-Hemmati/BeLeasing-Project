@@ -1,5 +1,6 @@
 @import "_base.css";
 body {
+  height: 200vh;
   font-family: var(--font-DM-Sans-Normal);
 }
 .header-container {
@@ -28,9 +29,9 @@ body {
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 18px 22px;
+  padding: 18px 24px;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: bold;
 }
 .active {
@@ -39,7 +40,40 @@ body {
 .header-container .icon {
   display: none;
 }
-@media screen and (max-width: 1024px) {
+.topnav a {
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 900px) {
+  .header-container .icon {
+    display: block;
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav {
+    display: none;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive {
+    display: block;
+    position: absolute;
+    width: 50%;
+    background: var(--color-Black);
+    top: 55px;
+    right: 0;
+  }
+  .topnav a {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 426px) {
   .header-container .icon {
     display: block;
   }
@@ -63,5 +97,8 @@ body {
     background: var(--color-Black);
     top: 55px;
     left: 0;
+  }
+  .topnav a {
+    font-size: 1.3rem;
   }
 }
