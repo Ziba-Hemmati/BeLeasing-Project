@@ -1,0 +1,562 @@
+@import "_base.css";
+.header-container {
+  z-index: 2;
+}
+.main {
+  font-family: var(--font-Poppins-Normal);
+}
+
+/* The first section of the website */
+
+.top-outset {
+  background-color: var(--color-Light-Gray);
+}
+.top-outset__background {
+  background-image: url(../Assets/Images/Details/leasing-bg-logo.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 100%;
+}
+.top-outset__content {
+  padding: 100px 33px 50px;
+}
+.top-outset__content--color {
+  font-family: var(--font-DM-Sans-Normal);
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: var(--color-Light-Blue);
+  margin-bottom: 15px;
+}
+.top-outset__header {
+  font-size: 3.2rem;
+  margin-bottom: 18px;
+}
+.outset {
+  background-color: var(--color-Light-Gray);
+  padding: 0 33px;
+}
+.swiper-wrapper img {
+  width: 100%;
+}
+.outset-content {
+  padding: 60px 18px 80px;
+}
+.outset__h3 {
+  font-size: 1.9rem;
+  margin-bottom: 40px;
+}
+.outset__h3--break::before {
+  content: "\a";
+  white-space: pre;
+}
+.outset__p {
+  font-family: var(--font-DM-Sans-Normal);
+  font-size: 1.3rem;
+  margin-bottom: 40px;
+}
+.outset-price {
+  display: flex;
+  align-items: last baseline;
+  font-size: 1.2rem;
+  margin-bottom: 34px;
+}
+.outset-price span {
+  font-family: var(--font-DM-Sans-Normal);
+  font-size: 1.3rem;
+  padding-right: 16px;
+}
+.outset-price h3 {
+  font-size: 1.9rem;
+}
+.outset__button {
+  font-family: var(--font-Jost);
+  font-size: 1.7rem;
+  background-color: var(--color-Light-Blue);
+  color: var(--color-White);
+  padding: 10px 34px;
+}
+
+/* The second section of the website : Specifications of Mercedes-Benz G-Class  */
+
+.specifications-container {
+  padding: 100px 33px 70px;
+  text-align: center;
+}
+.specifications__items,
+.equipments__items {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+}
+.specifications-container__h4,
+.equipments__items h4 {
+  font-size: 1.3rem;
+  padding: 0 4px 60px;
+}
+.specifications__border,
+.equipments__border {
+  border: 1px solid #d6d6d6;
+  margin-bottom: 16px;
+}
+.specifications__titels,
+.specifications__values,
+.equipments__titels,
+.equipments__values {
+  font-family: var(--font-DM-Sans-Normal);
+  font-size: 1.3rem;
+  padding: 0 0 18px;
+}
+.specifications__titels,
+.equipments__titels {
+  font-weight: bold;
+}
+.specifications__content,
+.equipments__content {
+  font-family: var(--font-DM-Sans-Normal);
+  font-size: 1.3rem;
+  padding: 30px 10px 0;
+}
+.specifications__content--bold,
+.equipments__content--underline {
+  margin-bottom: 15px;
+  font-family: var(--font-DM-Sans-Normal);
+}
+.specifications__content--bold span {
+  font-weight: bold;
+}
+.specifications__content--italic {
+  font-style: italic;
+  font-family: var(--font-DM-Sans-Normal);
+  margin-bottom: 100px;
+}
+.fa-check {
+  color: var(--color-Light-Blue);
+  font-size: 1.2rem;
+}
+.equipments__content--underline span {
+  text-decoration: underline;
+}
+.equipments__content--bold span {
+  font-weight: bold;
+}
+
+/* The third section of the website */
+
+.description {
+  padding: 75px 33px 50px;
+  background-color: var(--color-Light-Gray);
+}
+.description__image img {
+  width: 100%;
+  padding-top: 16px;
+}
+.description__h2 {
+  font-size: 3.2rem;
+  line-height: 36px;
+}
+.description__h3 {
+  font-size: 1.9rem;
+  margin: 30px 0;
+}
+.description__p {
+  font-family: var(--font-DM-Sans-Normal);
+  font-size: 1.3rem;
+  padding-bottom: 20px;
+}
+
+/* The fourth section of the website */
+
+.comparison {
+  padding: 0 33px 22px;
+}
+.comparison__cards {
+  text-align: center;
+  padding: 50px 8px 0;
+}
+.comparison__number {
+  font-size: 3.8rem;
+  font-weight: bold;
+  color: var(--color-Light-Purple);
+  padding-bottom: 20px;
+}
+.comparison__title {
+  font-size: 1.9rem;
+  font-weight: bold;
+  margin: 0 auto;
+}
+.comparison__title--break::before {
+  content: "\a";
+  white-space: pre;
+}
+.comparison__p {
+  font-family: var(--font-DM-Sans-Normal);
+  font-size: 1.3rem;
+  padding-top: 40px;
+}
+.comparison__items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0 0;
+  font-family: var(--font-DM-Sans-Normal);
+  font-size: 1.3rem;
+}
+.items-container {
+  display: flex;
+  align-items: center;
+  padding: 6px 0;
+}
+.check--purple {
+  color: var(--color-Light-Purple);
+  margin-right: 8px;
+}
+.text--purple {
+  color: var(--color-Light-Purple);
+}
+.comparison__button {
+  font-family: var(--font-Jost);
+  background-color: var(--color-Light-Purple);
+  padding: 10px 30px;
+  color: var(--color-White);
+  font-weight: 500;
+  font-size: 1.7rem;
+  margin: 30px 0 10px;
+}
+
+/* The fifth section of the website */
+
+.contact {
+  background-color: #0a0a0a;
+  padding: 75px 33px 35px;
+}
+.contact__title {
+  color: var(--color-White);
+  font-size: 1.9rem;
+  line-height: 22px;
+}
+.contact__title--break::before {
+  content: "\a";
+  white-space: pre;
+}
+.contact__border {
+  border: 1px solid var(--color-White);
+  margin: 50px 0;
+}
+.contact__p {
+  background-color: var(--color-Blue-HighLight);
+  width: fit-content;
+  font-size: 1.3rem;
+  margin: 12px 0;
+  padding: 2px 4px;
+  border-radius: 4px;
+  text-indent: 6px;
+}
+.contact__title--font {
+  color: var(--color-White);
+  font-size: 1.9rem;
+  font-weight: 600;
+  padding: 20px 0 0;
+}
+.contact__suggest {
+  color: var(--color-Light-Blue);
+  font-size: 1.3rem;
+  padding: 12px 0 4px;
+  font-family: var(--font-DM-Sans-Normal);
+}
+.contact__phone {
+  display: flex;
+  align-items: center;
+  padding-bottom: 30px;
+}
+.fa-phone,
+.contact__phone-num {
+  color: var(--color-White);
+  font-size: 1.9rem;
+  padding: 0 2px;
+  margin-left: 6px;
+}
+.fa-phone {
+  font-size: 1.6rem;
+}
+
+/* media query -- tablet */
+
+@media (min-width: 768px) {
+  .top-outset__content {
+    padding: 100px 50px 0;
+  }
+  .top-outset__content--color {
+    font-size: 1.4rem;
+  }
+  .top-outset__header {
+    font-size: 4.6rem;
+  }
+  .top-outset__background {
+    height: 300px;
+  }
+  .outset {
+    display: flex;
+    padding: 0 40px 100px;
+  }
+  .outset-content {
+    padding: 0 36px;
+  }
+  .swiper,
+  .outset-content {
+    width: 50%;
+  }
+  .outset__h3 {
+    font-size: 2.7rem;
+    line-height: 32px;
+  }
+  .outset__p,
+  .outset-price span {
+    line-height: 22px;
+  }
+  .outset-price h3 {
+    font-size: 2.7rem;
+  }
+  .outset__button {
+    margin-top: 20px;
+    font-size: 1.7rem;
+  }
+
+  /* The second section of the website */
+
+  .specifications,
+  .equipments {
+    display: flex;
+  }
+  .specifications__items,
+  .specifications__content,
+  .equipments__items,
+  .equipments__content {
+    width: 50%;
+  }
+  .specifications-container {
+    padding: 100px 40px 70px;
+  }
+  .specifications-container__h4 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    display: flex;
+  }
+  .items-table {
+    display: flex;
+    justify-content: space-between;
+  }
+  .specifications__values,
+  .equipments__values,
+  .fa-check {
+    width: 100px;
+  }
+  .specifications__content,
+  .equipments__content {
+    text-align: start;
+    padding: 0 0 0 40px;
+    line-height: 24px;
+  }
+
+  /* The third section of the website */
+
+  .description-container {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-Light-Gray);
+  }
+  .description {
+    display: flex;
+    padding: 75px 0;
+    width: calc(768px - 80px);
+  }
+  .description__image {
+    display: flex;
+    align-items: center;
+  }
+  .description__h2 {
+    font-size: 4.6rem;
+    font-weight: 500;
+    line-height: 54px;
+  }
+  .description__h3 {
+    font-size: 2.7rem;
+    line-height: 32px;
+    padding: 0 40px 10px 0;
+  }
+  .description__p {
+    padding-right: 50px;
+  }
+
+  /* The fourth section of the website */
+
+  .comparison {
+    display: flex;
+  }
+  .check--purple {
+    margin: 0;
+  }
+  .items-container p {
+    margin-left: -36px;
+  }
+  .items-container--display {
+    margin-left: -46px;
+  }
+  .comparison__button {
+    margin: 50px 0 30px;
+  }
+
+  /* The fifth section of the website */
+
+  .contact {
+    padding: 60px 50px;
+  }
+  .contact__title-container {
+    display: flex;
+    align-items: first baseline;
+    padding-bottom: 40px;
+  }
+  .contact__Highlight-container {
+    display: flex;
+    align-items: last baseline;
+  }
+  .contact__title {
+    font-size: 2.7rem;
+    line-height: 30px;
+    width: 370px;
+  }
+  .contact__border {
+    width: 80%;
+    height: 0;
+  }
+  .contact__p {
+    font-size: 1.6rem;
+  }
+  .contact__phone-container {
+    padding-left: 50px;
+  }
+  .contact__title--font {
+    font-size: 2.7rem;
+    padding: 0;
+  }
+  .fa-phone {
+    font-size: 2rem;
+  }
+  .contact__phone-num {
+    font-size: 2.6rem;
+  }
+}
+
+/* media query -- laptop */
+
+@media (min-width: 1024px) {
+  .top-outset__content {
+    padding-left: 60px;
+  }
+  .outset {
+    padding: 0 60px;
+  }
+  .outset-content {
+    padding: 4px 50px 90px 60px;
+  }
+  .outset__h3 {
+    line-height: 40px;
+  }
+  .outset__p {
+    line-height: 26px;
+    margin-bottom: 30px;
+  }
+  .outset__button {
+    margin-top: 5px;
+  }
+  .specifications-container {
+    padding: 100px 60px 70px;
+  }
+  .description {
+    width: calc(1024px - 120px);
+  }
+  .description__h2 {
+    font-weight: 500;
+    line-height: 60px;
+  }
+  .description__h3 {
+    margin: 50px 0 30px;
+    line-height: 40px;
+  }
+  .description__p {
+    line-height: 28px;
+  }
+  .comparison__p {
+    line-height: 28px;
+    padding: 40px 28px 0;
+  }
+  .contact__title {
+    font-weight: 600;
+    line-height: 40px;
+  }
+  .top-outset__header,
+  .description__h2 {
+    font-size: 5.4rem;
+  }
+  .outset__h3,
+  .description__h3 {
+    font-size: 3.2rem;
+  }
+  .top-outset__content--color,
+  .outset__p,
+  .outset-price span,
+  .description__p,
+  .comparison__p,
+  .items-container {
+    font-size: 1.5rem;
+  }
+  .outset-price h3,
+  .contact__phone-num,
+  .comparison__title,
+  .contact__title,
+  .contact__title--font {
+    font-size: 3.2rem;
+  }
+  .specifications-container__h4 {
+    font-size: 2.1rem;
+  }
+  .specifications__titels,
+  .quipments__titels {
+    font-size: 1.6rem;
+  }
+  .specifications__values,
+  .specifications__content,
+  .equipments__content,
+  .fa-check,
+  .equipments__values,
+  .contact__suggest {
+    font-size: 1.5rem;
+  }
+  .contact__p {
+    font-size: 1.9rem;
+  }
+  .comparison__number {
+    font-size: 6.4rem;
+  }
+  .contact__Highlight-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .contact__phone-container {
+    padding-right: 70px;
+  }
+  .fa-phone {
+    font-size: 2.2rem;
+    padding-right: 10px;
+  }
+  .specifications__content--bold,
+  .specifications__content--italic,
+  .equipments__content--bold,
+  .equipments__content--underline {
+    line-height: 28px;
+  }
+  .specifications__content,
+  .equipments__content {
+    padding: 0 10px 0 60px;
+  }
+}

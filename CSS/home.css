@@ -1,6 +1,10 @@
 /*=================== import ===================*/
 @import "_base.css";
 
+.header-container {
+    z-index: 2;
+}
+
 /*=================== main style ===================*/
 .main {
     display: flex;
