@@ -4,7 +4,9 @@ function burgerMenuHandler() {
   pageBody.style.marginTop = "0";
   if (myTopnav.className === "topnav") {
     myTopnav.className += " responsive";
-    pageBody.style.marginTop = "300px";
+    if (window.innerWidth <= 426) {
+      pageBody.style.marginTop = "300px";
+    }
   } else {
     myTopnav.className = "topnav";
   }
@@ -20,7 +22,6 @@ window.onscroll = function () {
 };
 
 function activeMenuHandler(activeTabName) {
-  console.log("thing", activeTabName);
   var home = document.getElementById("home");
   var aboutUs = document.getElementById("about-us");
   var carLeasing = document.getElementById("car-leasing");
