@@ -1,0 +1,105 @@
+@import "_base.css";
+body {
+  font-family: var(--font-DM-Sans-Normal);
+}
+.header-container {
+  background-color: var(--color-Black);
+  padding: 20px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  top: 0;
+  height: 55px;
+}
+.header-container img {
+  width: 150px;
+}
+.icon {
+  color: var(--color-White);
+  cursor: pointer;
+  font-size: 2rem;
+}
+.topnav {
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 18px 24px;
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.active {
+  background-color: var(--color-Purple);
+}
+.header-container .icon {
+  display: none;
+}
+.topnav a {
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 900px) {
+  .header-container .icon {
+    display: block;
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav {
+    display: none;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive {
+    display: block;
+    position: absolute;
+    width: 50%;
+    background: var(--color-Black);
+    top: 55px;
+    right: 0;
+  }
+  .topnav a {
+    font-size: 1.5rem;
+  }
+  
+}
+
+@media screen and (max-width: 426px) {
+  .header-container .icon {
+    display: block;
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav {
+    display: none;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive {
+    display: block;
+    position: absolute;
+    width: 100%;
+    background: var(--color-Black);
+    top: 55px;
+    left: 0;
+  }
+  .topnav a {
+    font-size: 1.3rem;
+  }
+}
