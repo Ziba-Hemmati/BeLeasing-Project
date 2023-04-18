@@ -1,0 +1,269 @@
+@import "_base.css";
+
+.footer {
+    background-color: var(--color-Dark-Gray);
+    padding: 85px 33px;
+}
+
+.footer__text1 {
+    font-family: var(--font-Poppins-Bold);
+    font-size: 1.9rem;
+    margin-top: 50px;
+    inline-size: 230px;
+    overflow-wrap: break-word;
+}
+
+.footer__form__sec1 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer__form__sec1 label {
+    font-family: var(--font-Poppins-Bolder);
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    margin-top: 65px;
+}
+
+.footer__form__sec1 input {
+    width: 309px;
+    height: 46px;
+    padding: 10px;
+    border: none;
+}
+
+.footer__form__button {
+    background-color: var(--color-Black);
+    color: var(--color-White);
+    width: 98px;
+    height: 45px;
+    font-size: 1.7rem;
+    font-family: var(--font-Jost);
+    margin-top: 7px;
+}
+
+.footer__form__text {
+    font-family: var(--font-DM-Sans-Normal);
+    font-size: 1.1rem;
+    margin-top: 5px;
+}
+
+.footer__text2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer__text2__phone {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+.footer__text2__phone p {
+    font-family: var(--font-DM-Sans-Bold);
+    font-size: 1.3rem;
+}
+
+.footer__text2__phone img {
+    width: 13px;
+    height: 13px;
+    margin: 0px 3px;
+}
+
+.footer__text2__email {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+
+.footer__text2__email p {
+    font-family: var(--font-DM-Sans-Bold);
+    font-size: 1.3rem;
+}
+
+
+.footer__text2__email img {
+    width: 13px;
+    height: 13px;
+    margin: 0px 3px;
+
+}
+
+.footer2 {
+    background-color: var(--color-Dark-Gray);
+}
+
+.footer__line {
+    border: solid 1px #DEDDDF;
+}
+
+.footer__arrow1 {
+    padding: 0px 33px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__arrow1 i {
+    font-size: 3rem;
+    margin-bottom: 15px;
+    width: 20px;
+    height: 20px;
+    color: var(--color-Black);
+
+}
+
+.footer__text4 {
+    display: none;
+
+}
+
+.footer__text3 {
+    font-family: var(--font-DM-Sans-Normal);
+    font-size: 1.3rem;
+    padding: 0px 33px;
+    margin-top: 15px;
+    text-align: center;
+
+}
+
+.footer__text3 a {
+    color: var(--color-Purple);
+}
+
+.footer__icon1 {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__icon1 img {
+    width: 15px;
+    height: 15px;
+    margin: 15px 7px;
+
+}
+
+.footer__arrow-icon__resp {
+    display: none;
+}
+
+
+@media (min-width: 768px) {
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 75px 75px;
+
+    }
+
+    .footer__text1 {
+        font-size: 3.2rem;
+        inline-size: 450px;
+        overflow-wrap: break-word;
+    }
+
+
+    .footer__form {
+        display: flex;
+        margin: -40px 0px;
+    }
+
+
+    .footer__form__sec1 label {
+        font-size: 2.1rem;
+        margin-left: 10px;
+    }
+
+    .footer__form__sec1 input {
+        width: 190px;
+        height: 46px;
+    }
+
+    .footer__form__button {
+        margin-top: 110px;
+        margin-left: 10px;
+    }
+
+    .footer__form__text {
+        font-size: 1.3rem;
+        margin-top: 80px;
+
+    }
+
+    .footer__text2 {
+        margin-top: 50px;
+    }
+
+    .footer__text2__phone p {
+        font-family: var(--font-DM-Sans-Bold);
+        font-size: 1.6rem;
+    }
+
+    .footer__text2__email p {
+        font-family: var(--font-DM-Sans-Bold);
+        font-size: 1.6rem;
+
+    }
+
+    .footer__icon1 {
+        display: none;
+    }
+
+    .footer__arrow1 {
+        display: none;
+    }
+
+    .footer__arrow-icon__resp {
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+    }
+
+    .footer__arrow2 {
+        padding: 0px 75px;
+        margin-top: 30px;
+        /*display: flex;*/
+        /*justify-content: center;*/
+    }
+
+    .footer__arrow2 i {
+        font-size: 3rem;
+        margin-bottom: 15px;
+        width: 20px;
+        height: 20px;
+        color: var(--color-Black);
+    }
+
+    .footer__icon2 {
+        margin-top: 25px;
+    }
+
+
+    .footer__icon2 img {
+        width: 15px;
+        height: 15px;
+        margin: 15px 7px;
+    }
+
+
+    .footer__text4 {
+        display: flex;
+        font-family: var(--font-DM-Sans-Normal);
+        font-size: 1.5rem;
+        padding: 30px 75px;
+        margin: -60px 0px;
+
+    }
+
+    .footer__text4 a {
+        color: var(--color-Purple);
+    }
+
+    .footer__text3 {
+        display: none;
+    }
+}
