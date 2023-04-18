@@ -25,12 +25,14 @@
             </a>
         </div>
         <div class="topnav" id="myTopnav">
-            <a onclick="activeMenuHandler('home')" class="active" id="home" href="./home.html">Home</a>
+            <a onclick="activeMenuHandler('home')" class="active" id="home" href="./index.html">Home</a>
             <a onclick="activeMenuHandler('about-us')" id="about-us" href="./about-us.html">About us</a>
             <a onclick="activeMenuHandler('car-leasing')" id="car-leasing" href="./car-leasing.html">Car leasing</a>
             <a onclick="activeMenuHandler('details')" id="details" href="./details.html">Details</a>
             <a onclick="activeMenuHandler('contact')" id="contact" href="./contact.html">Contact</a>
-            <a onclick="activeMenuHandler('buy-now')" id="buy-now" href="#">Buy now
+            <a onclick="activeMenuHandler('buy-now')" id="buy-now"
+                href="https://themeforest.net/item/betheme-responsive-multipurpose-wordpress-theme/7758048?ref=muffingroup&irgwc=1&clickid=TjlS77TO%3AxyNR3CzNTQzc24XUkAQgj0cbR7IS00&iradid=275988&irpid=1289117&iradtype=ONLINE_TRACKING_LINK&irmptype=mediapartner&mp_value1=&utm_campaign=af_impact_radius_1289117&utm_medium=affiliate&utm_source=impact_radius">Buy
+                now
             </a>
         </div>
     </div>
@@ -50,7 +52,7 @@
                             Finding you the best car leasing
                         </div>
                         <div class="slider__banner-button">
-                            <a class="slider__button" href="#">More</a>
+                            <a class="slider__button" href="#product">More</a>
                         </div>
                     </div>
                     <div class="slider__arrow-container">
@@ -67,7 +69,7 @@
             </div>
 
             <!--products-->
-            <div class="product row">
+            <div class="product row" id="product">
                 <div class="products-container container">
                     <div class="products__title-container row">
                         <div class="products__title">
@@ -311,7 +313,7 @@
                             <p> +91-40402929 </p>
                         </div>
                         <div class="footer-contact">
-                            <i class="fa-sharp fa-solid fa-envelope"></i>
+                            <i class="fa-sharp fa-solid fa-envelope footer-envelope"></i>
                             <p>noreply@envato.com</p>
                         </div>
                     </div>
@@ -326,13 +328,20 @@
                         <i class="fa-solid fa-angle-up"></i>
                     </div>
                 </a>
-                <p>© 2023 Betheme by <a href="https://muffingroup.com/" class="footnote--linked">Muffin group</a> | All Rights Reserved | Powered
+                <p>© 2023 Betheme by <a href="https://muffingroup.com/" class="footnote--linked">Muffin group</a> | All
+                    Rights Reserved | Powered
                     by <a href="https://wordpress.org/" class="footnote--linked">WordPress</a>
                 </p>
                 <div class="brands-container">
-                    <i class="fa-brands fa-facebook-f footer-icons"></i>
-                    <i class="fa-brands fa-twitter footer-icons"></i>
-                    <i class="fa-brands fa-vimeo-v footer-icons"></i>
+                    <a href="#" class="brands--linked">
+                        <i class="fa-brands fa-facebook-f footer-icons"></i>
+                    </a>
+                    <a href="#" class="brands--linked">
+                        <i class="fa-brands fa-twitter footer-icons"></i>
+                    </a>
+                    <a href="#" class="brands--linked">
+                        <i class="fa-brands fa-vimeo-v footer-icons"></i>
+                    </a>
                     <a href="#" class="footer__arrow--linked">
                         <div class="arrowup"><i class="fa-solid fa-angle-up "></i></div>
                     </a>
