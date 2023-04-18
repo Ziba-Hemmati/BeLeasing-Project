@@ -108,7 +108,7 @@ body {
 .footer-container {
   background-color: var(--color-Dark-Gray);
 }
-.custom-container {
+.footer__custom-container {
   padding: 70px 33px 0;
 }
 .custom__p {
@@ -127,16 +127,16 @@ body {
   font-weight: 600;
   padding-bottom: 15px;
 }
-.input-email {
+.footer__input-email {
   border: none;
   background-color: var(--color-White);
   width: 100%;
   padding: 16px 14px;
 }
-.input-email::placeholder {
+.footer__input-email::placeholder {
   color: var(--color-Black);
 }
-.submit-button {
+.footer__submit-button {
   font-family: var(--font-Jost);
   background-color: var(--color-Black);
   color: var(--color-White);
@@ -147,25 +147,25 @@ body {
 .lorem {
   font-size: 1.1rem;
 }
-.contact {
+.footer-contact {
   display: flex;
   align-items: center;
 }
-.contact-container {
+.footer__contact-container {
   display: flex;
   align-items: center;
   padding: 50px 0 100px;
 }
-.contact i {
+.footer-contact i {
   padding-right: 6px;
 }
-.contact p {
+.footer-contact p {
   font-size: 1.3rem;
 }
 .fa-envelope {
   padding-left: 20px;
 }
-.border {
+.footer__border {
   border: 1px solid #dfdddf;
 }
 .footnote {
@@ -200,19 +200,19 @@ body {
     display: flex;
     align-items: center;
   }
-  .submit-button {
+  .footer__submit-button {
     margin-left: 6px;
     font-size: 1.9rem;
   }
-  .contact-container {
+  .footer__contact-container {
     display: flex;
     flex-direction: column;
     align-items: first baseline;
   }
-  .contact-container p {
+  .footer__contact-container p {
     font-size: 1.4rem;
   }
-  .contact {
+  .footer-contact {
     padding: 4px 0;
   }
   .fa-envelope {
@@ -246,7 +246,7 @@ body {
   .footer-icons {
     font-size: 1.5rem;
   }
-  .custom-container {
+  .footer__custom-container {
     padding: 100px 40px 0px;
   }
   .newsletter {
@@ -266,13 +266,13 @@ body {
     font-size: 2.1rem;
   }
   .lorem,
-  .contact i {
+  .footer-contact i {
     font-size: 1.3rem;
   }
-  .contact p {
+  .footer-contact p {
     font-size: 1.6rem;
   }
-  .custom-container{
+  .footer__custom-container{
     padding: 120px 50px 0;
   }
   .footnote{
