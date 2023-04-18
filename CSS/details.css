@@ -36,6 +36,9 @@
   background-color: var(--color-Light-Gray);
   padding: 0 33px;
 }
+.swiper-wrapper:hover{
+  cursor: pointer;
+}
 .swiper-wrapper img {
   width: 100%;
 }
@@ -76,7 +79,9 @@
   color: var(--color-White);
   padding: 10px 34px;
 }
-
+.outset__button:hover {
+  background-color: rgb(23, 122, 122);
+}
 /* The second section of the website : Specifications of Mercedes-Benz G-Class  */
 
 .specifications-container {
@@ -269,14 +274,14 @@
   align-items: center;
   padding-bottom: 30px;
 }
-.fa-phone,
+.details-phone,
 .contact__phone-num {
   color: var(--color-White);
   font-size: 1.9rem;
   padding: 0 2px;
   margin-left: 6px;
 }
-.fa-phone {
+.details-phone {
   font-size: 1.6rem;
 }
 
@@ -368,7 +373,7 @@
   .description {
     display: flex;
     padding: 75px 0;
-    width: calc(768px - 80px);
+    width: 89%;
   }
   .description__image {
     display: flex;
@@ -439,7 +444,7 @@
     font-size: 2.7rem;
     padding: 0;
   }
-  .fa-phone {
+  .details-phone {
     font-size: 2rem;
   }
   .contact__phone-num {
@@ -473,7 +478,7 @@
     padding: 100px 60px 70px;
   }
   .description {
-    width: calc(1024px - 120px);
+    width: 88%;
   }
   .description__h2 {
     font-weight: 500;
@@ -493,6 +498,27 @@
   .contact__title {
     font-weight: 600;
     line-height: 40px;
+  }
+  .contact__Highlight-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .contact__phone-container {
+    padding-right: 70px;
+  }
+  .details-phone {
+    font-size: 2.2rem;
+    padding-right: 10px;
+  }
+  .specifications__content--bold,
+  .specifications__content--italic,
+  .equipments__content--bold,
+  .equipments__content--underline {
+    line-height: 28px;
+  }
+  .specifications__content,
+  .equipments__content {
+    padding: 0 10px 0 60px;
   }
   .top-outset__header,
   .description__h2 {
@@ -537,26 +563,5 @@
   }
   .comparison__number {
     font-size: 6.4rem;
-  }
-  .contact__Highlight-container {
-    display: flex;
-    justify-content: space-between;
-  }
-  .contact__phone-container {
-    padding-right: 70px;
-  }
-  .fa-phone {
-    font-size: 2.2rem;
-    padding-right: 10px;
-  }
-  .specifications__content--bold,
-  .specifications__content--italic,
-  .equipments__content--bold,
-  .equipments__content--underline {
-    line-height: 28px;
-  }
-  .specifications__content,
-  .equipments__content {
-    padding: 0 10px 0 60px;
   }
 }

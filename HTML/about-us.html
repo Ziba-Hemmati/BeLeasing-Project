@@ -22,8 +22,8 @@
             </a>
         </div>
         <div class="topnav" id="myTopnav">
-            <a onclick="activeMenuHandler('home')" class="active" id="home" href="./home.html">Home</a>
-            <a onclick="activeMenuHandler('about-us')" id="about-us" href="./about-us.html">About us</a>
+            <a onclick="activeMenuHandler('home')" id="home" href="./index.html">Home</a>
+            <a onclick="activeMenuHandler('about-us')" class="active" id="about-us" href="./about-us.html">About us</a>
             <a onclick="activeMenuHandler('car-leasing')" id="car-leasing" href="./car-leasing.html">Car leasing</a>
             <a onclick="activeMenuHandler('details')" id="details" href="./details.html">Details</a>
             <a onclick="activeMenuHandler('contact')" id="contact" href="./contact.html">Contact</a>
@@ -70,7 +70,7 @@
                         </p>
                         <div class="button-container">
                             <button class="button">
-                                <span>More</span>
+                                <a>More</a>
                             </button>
                         </div>
                     </div>
@@ -154,13 +154,76 @@
                     <img class="image-team" src="../Assets/Images/About-Us/leasing-about-team.jpg">
                 </div>
             </div>
-            <div class="button-contac-container">
-                <button class="button-contac">
-                    Contact us
+            <div class="button-contact-container">
+                <button class="button-contact">
+                    <a class="button-contact" href="../HTML/contact.html"> Contact us</a>
                 </button>
             </div>
         </div>
     </div>
+
+    <!-- footer -->
+    <footer class="footer-container">
+        <div class="footer__custom-container">
+            <div class="custom">
+                <div class="custom__text">
+                    <img src="../Assets/Images/Header&Footer/leasing-logo-footer.jpg" alt="leasing-logo-footer">
+                    <p class="custom__p">Level 13, 2 Elizabeth St, <span class="custom--break"></span>Melbourne,
+                        Victoria
+                        <span class="custom--break"></span> Australia
+                    </p>
+                </div>
+                <div class="custom__email">
+                    <p class="newsletter">Newsletter</p>
+                    <div class="buttons-container">
+                        <div>
+                            <input class="footer__input-email" type="email" placeholder="Your Email">
+                        </div>
+                        <button class="footer__submit-button" type="submit">Send</button>
+                    </div>
+                    <p class="lorem">Lorem ipsum dolor mit</p>
+                    <div class="footer__contact-container">
+                        <div class="footer-contact">
+                            <i class="fa-solid fa-phone"></i>
+                            <p> +91-40402929 </p>
+                        </div>
+                        <div class="footer-contact">
+                            <i class="fa-sharp fa-solid fa-envelope"></i>
+                            <p>noreply@envato.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footnote-container">
+            <div class="footer__border"></div>
+            <div class="footnote">
+                <a href="#" class="footer__arrow--linked">
+                    <div class="arrow-up-container">
+                        <i class="fa-solid fa-angle-up"></i>
+                    </div>
+                </a>
+                <p>© 2023 Betheme by <a href="https://muffingroup.com/" class="footnote--linked">Muffin group</a> | All
+                    Rights Reserved | Powered
+                    by <a href="https://wordpress.org/" class="footnote--linked">WordPress</a>
+                </p>
+                <div class="brands-container">
+                    <a href="#" class="brands--linked">
+                        <i class="fa-brands fa-facebook-f footer-icons"></i>
+                    </a>
+                    <a href="#" class="brands--linked">
+                        <i class="fa-brands fa-twitter footer-icons"></i>
+                    </a>
+                    <a href="#" class="brands--linked">
+                        <i class="fa-brands fa-vimeo-v footer-icons"></i>
+                    </a>
+                    <a href="#" class="footer__arrow--linked">
+                        <div class="arrowup"><i class="fa-solid fa-angle-up "></i></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="../JavaScript/header.js"></script>
 </body>
 
