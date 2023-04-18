@@ -141,7 +141,7 @@ body {
   background-color: var(--color-Dark-Gray);
 }
 .footer__custom-container {
-  padding: 70px 33px 0;
+  padding: 120px 33px 0;
 }
 .custom__p {
   font-family: var(--font-Poppins-Normal);
@@ -291,7 +291,7 @@ body {
     font-size: 1.5rem;
   }
   .footer__custom-container {
-    padding: 100px 40px 0;
+    padding: 120px 40px 0;
   }
   .newsletter {
     padding: 0;
