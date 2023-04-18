@@ -36,7 +36,7 @@
   background-color: var(--color-Light-Gray);
   padding: 0 33px;
 }
-.swiper-wrapper:hover{
+.swiper-wrapper:hover {
   cursor: pointer;
 }
 .swiper-wrapper img {
@@ -373,7 +373,7 @@
   .description {
     display: flex;
     padding: 75px 0;
-    width: 89%;
+    width: 88%;
   }
   .description__image {
     display: flex;
@@ -397,18 +397,17 @@
 
   .comparison {
     display: flex;
+    justify-content: center;
   }
   .check--purple {
     margin: 0;
-  }
-  .items-container p {
-    margin-left: -36px;
-  }
-  .items-container--display {
-    margin-left: -46px;
+    width: 24px;
   }
   .comparison__button {
     margin: 50px 0 30px;
+  }
+  .comparison__cards {
+    margin: 0 10px;
   }
 
   /* The fifth section of the website */
