@@ -175,11 +175,14 @@ body {
 .fa-angle-up {
   font-size: 2rem;
 }
+.footer__arrow--linked {
+  color: var(--color-Black);
+}
 .footnote p {
   font-size: 1.3rem;
   padding: 30px 0 12px;
 }
-.footnote a:hover {
+.footnote--linked:hover {
   text-decoration: underline;
   color: #c128dc;
 }
@@ -187,7 +190,7 @@ body {
   font-size: 1.3rem;
   padding: 0 6px;
 }
-.arrowup{
+.arrowup {
   display: none;
 }
 
@@ -227,14 +230,17 @@ body {
   .arrow-up-container {
     display: none;
   }
-  .arrowup{
+  .arrowup {
     display: block;
   }
   .footnote {
     display: flex;
     align-items: last baseline;
-    justify-content: space-between;
     padding: 10px 40px 20px;
+  }
+  .footnote p {
+    width: 90%;
+    text-align: left;
   }
   .brands-container {
     display: flex;
@@ -272,10 +278,10 @@ body {
   .footer-contact p {
     font-size: 1.6rem;
   }
-  .footer__custom-container{
+  .footer__custom-container {
     padding: 120px 50px 0;
   }
-  .footnote{
+  .footnote {
     padding: 10px 50px 20px;
   }
   .footnote p {
