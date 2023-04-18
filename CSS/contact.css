@@ -141,14 +141,14 @@ gitbody{
     background-position: center bottom;
     display: flex;
     justify-content: flex-start;
-    padding-left: 25px;
+    padding-left: 15px;
 }
     .box__message{
-        width: 48%;
+        width: 47%;
         margin-left: 20px;
     }
     .box__message__text{
-        font-size: 4.6rem;
+        font-size: 4.2rem;
         padding: 0 50px 30px 0;
         line-height: 55px;
     }
@@ -211,18 +211,21 @@ gitbody{
     }
 }
 @media only screen and (min-width: 1024px) {
+    .back__header{
+        padding-left: 0;
+    }
     .box__message{
         padding: 50px 50px 30px 50px;
-        width: 43%;
-        margin-left: 84px;
+        width: 45%;
+        margin-left: 50px;
     }
     .box__message__text{
         font-size: 5.4rem;
         line-height: 64px;
-        font-weight: 500;
+        font-weight: bold;
     }
     .box__message__btn{
-        margin: 0 1% 40px;
+        margin: 0 10px 40px;
     }
     .information__address h3 {
         font-size: 3.2rem;
@@ -244,6 +247,10 @@ gitbody{
     }
 }
 @media only screen and (min-width: 1440px) {
+    .box__message{
+        margin-left: 155px;
+        width: 40%;
+    }
     .contact{
         width: 90%;
     }
