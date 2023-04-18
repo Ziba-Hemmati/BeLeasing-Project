@@ -203,7 +203,7 @@ body {
 .footer-contact p {
   font-size: 1.3rem;
 }
-.fa-envelope {
+.footer-envelope {
   padding-left: 20px;
 }
 .footer__border {
@@ -265,7 +265,7 @@ body {
   .footer-contact {
     padding: 4px 0;
   }
-  .fa-envelope {
+  .footer-envelope {
     padding-left: 0;
   }
   .custom__p {
