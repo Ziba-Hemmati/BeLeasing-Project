@@ -279,7 +279,6 @@
     line-height: 19px;
     font-size: 1.3rem;
     width: 90%;
-
 }
 
 .calculate__highLight--padding {
@@ -980,7 +979,7 @@
 
     /*=================== calculate ===================*/
     .calculate {
-        justify-content: flex-start;
+        justify-content: center;
     }
 
     .calculate__mobile-container {
