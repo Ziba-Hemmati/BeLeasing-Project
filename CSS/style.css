@@ -12,6 +12,24 @@ body {
   top: 0;
   height: 80px;
 }
+
+.header-container-sticky {
+  background-color: var(--color-Black);
+  padding: 20px 0 20px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed !important;
+  top: -80px;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  height: 80px;
+  animation-name: header-transition;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
 .header-container img {
   width: 150px;
 }
@@ -32,7 +50,7 @@ body {
   height: 100%;
   padding: 29px 24px;
   text-decoration: none;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 .topnav a:hover {
@@ -123,7 +141,7 @@ body {
   background-color: var(--color-Dark-Gray);
 }
 .footer__custom-container {
-  padding: 70px 33px 0;
+  padding: 120px 33px 0;
 }
 .custom__p {
   font-family: var(--font-Poppins-Normal);
@@ -176,7 +194,7 @@ body {
 .footer-contact p {
   font-size: 1.3rem;
 }
-.fa-envelope {
+.footer-envelope {
   padding-left: 20px;
 }
 .footer__border {
@@ -238,7 +256,7 @@ body {
   .footer-contact {
     padding: 4px 0;
   }
-  .fa-envelope {
+  .footer-envelope {
     padding-left: 0;
   }
   .custom__p {
@@ -273,7 +291,7 @@ body {
     font-size: 1.5rem;
   }
   .footer__custom-container {
-    padding: 100px 40px 0;
+    padding: 120px 40px 0;
   }
   .newsletter {
     padding: 0;
