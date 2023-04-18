@@ -68,22 +68,23 @@ body {
   .topnav {
     display: none;
   }
-  .topnav.responsive a {
-    float: none;
-    display: block;
+  .topnav a {
     text-align: left;
   }
-  .topnav.responsive {
-    display: block;
+  .topnav {
+    display: flex;
+    flex-direction: column;
     position: absolute;
     width: 50%;
+    height: 0;
     background: var(--color-Black);
     top: 80px;
     right: 0;
+    transition: 0.5s;
   }
   .topnav a {
-    font-size: 1.5rem;
-    padding: 20px 25px;
+    font-size: 1.4rem;
+    padding: 19px 25px;
   }
 }
 
@@ -99,21 +100,20 @@ body {
   .topnav {
     display: none;
   }
-  .topnav.responsive a {
-    float: none;
-    display: block;
+  .topnav a {
     text-align: left;
   }
-  .topnav.responsive {
-    display: block;
+  .topnav {
+    display: flex;
+    height: 0;
     position: absolute;
     width: 100%;
-    background: var(--color-Black);
     top: 80px;
     left: 0;
   }
   .topnav a {
     font-size: 1.3rem;
+    padding: 20px 25px;
   }
 }
 
@@ -273,7 +273,7 @@ body {
     font-size: 1.5rem;
   }
   .footer__custom-container {
-    padding: 100px 40px 0px;
+    padding: 100px 40px 0;
   }
   .newsletter {
     padding: 0;
