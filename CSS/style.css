@@ -193,6 +193,12 @@ body {
 .arrowup {
   display: none;
 }
+.brands--linked {
+  color: var(--color-Black);
+}
+.brands--linked:hover {
+color: rgb(186, 186, 186);
+}
 
 @media (min-width: 768px) {
   .custom {
@@ -247,7 +253,7 @@ body {
     align-items: center;
   }
   .fa-angle-up {
-    padding: 0 10px 0 24px;
+    padding: 0 10px 0 28px;
   }
   .footer-icons {
     font-size: 1.5rem;
