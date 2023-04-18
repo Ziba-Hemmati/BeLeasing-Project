@@ -13,15 +13,6 @@ body {
   height: 80px;
 }
 
-@keyframes header-transition {
-  from {
-    top: -80px;
-  }
-  to {
-    top: 0;
-  }
-}
-
 .header-container-sticky {
   background-color: var(--color-Black);
   padding: 20px 0 20px 14px;
@@ -59,7 +50,7 @@ body {
   height: 100%;
   padding: 29px 24px;
   text-decoration: none;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 .topnav a:hover {
