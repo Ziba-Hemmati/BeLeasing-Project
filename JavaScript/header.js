@@ -15,9 +15,9 @@ function burgerMenuHandler() {
 window.onscroll = function () {
   var header = document.getElementById("header-container");
   if (window.pageYOffset > 80) {
-    header.style.position = "sticky";
+    header.className = "header-container-sticky";
   } else {
-    header.style.position = "relative";
+    header.className = "header-container";
   }
 };
 
