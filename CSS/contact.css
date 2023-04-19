@@ -18,7 +18,7 @@ gitbody{
     background-position: center;
     background-size: cover;
     padding-top: 200px;
-    padding-bottom: 75px;
+    padding-bottom: 95px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,7 +50,7 @@ gitbody{
 /*end box__message*/
 .contact{
     width: 80%;
-    padding: 70px 0;
+    padding: 85px 0;
 }
 .information__address h3{
     font-size: 1.8rem;
