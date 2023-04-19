@@ -12,24 +12,6 @@ body {
   top: 0;
   height: 80px;
 }
-
-.header-container-sticky {
-  background-color: var(--color-Black);
-  padding: 20px 0 20px 14px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  position: fixed !important;
-  top: -80px;
-  left: 0;
-  right: 0;
-  z-index: 10;
-  height: 80px;
-  animation-name: header-transition;
-  animation-duration: 0.5s;
-  animation-fill-mode: forwards;
-}
-
 .header-container img {
   width: 150px;
 }
