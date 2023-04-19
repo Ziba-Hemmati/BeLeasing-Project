@@ -25,27 +25,35 @@ gitbody{
 }
 /*box__message top*/
 .box__message{
-    width: 80%;
+    width: 100%;
     background-color: rgba(143,26,164,0.8);
     padding:50px;
 }
 .box__message__text{
     color: var(--color-White);
     font-size: 3rem;
+    line-height: 38px;
     font-family: var(--font-Poppins-Normal);
+    padding-bottom: 30px;
 }
 .box__message__btn{
     background-color: var(--color-Black);
-    padding: 12px 32px;
-    margin-top: 20px;
+    padding: 12px 30px;
     border: none;
 }
 .box__message__btn a{
     color: var(--color-White);
     text-decoration: none;
     font-family: var(--font-Jost);
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     font-weight: 500;
+}
+.box-responsive{
+    max-width: 480px;
+    padding: 0 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /*end box__message*/
 .contact{
@@ -58,7 +66,7 @@ gitbody{
     line-height: 23px;
 }
 .information__tel{
-    padding: 30px 3px;
+    padding: 30px 0;
 }
 
 .information__tel h5,.information__email h5{
@@ -76,8 +84,7 @@ gitbody{
     font-size: 14px
 }
 .line{
-    width: 94%;
-    border-top: 1px solid var(--color-Dark-Gray);
+    border-top: 2px solid var(--color-Dark-Gray);
     margin: 40px auto 65px;
 }
 .contact__time h3{
@@ -143,16 +150,22 @@ gitbody{
     justify-content: flex-start;
     padding-left: 15px;
 }
+.box-responsive{
+    max-width: 708px;
+    justify-content: flex-start;
+    padding: 0;
+}
     .box__message{
-        width: 47%;
+        width: 50%;
         margin-left: 20px;
     }
     .box__message__text{
-        font-size: 4.2rem;
+        font-size: 4.5rem;
         padding: 0 50px 30px 0;
         line-height: 55px;
     }
     .information{
+        width: 95%;
         display: flex;
         align-items: flex-start;
         justify-content: space-around;
@@ -163,6 +176,9 @@ gitbody{
     .information__tel{
         width: 20%;
         padding: 0;
+    }
+    .information__email{
+        width: 25%;
     }
     .information__address h3{
         font-size: 2.1rem;
@@ -179,11 +195,11 @@ gitbody{
         flex-direction: column;
         align-items: flex-start;
     }
-     .information__email h5{
-         padding: 5px 0;
-     }
     .information__tel h5,.information__email h5{
         font-size: 2.2rem;
+    }
+    .line{
+        width: 94%;
     }
     .card__bottom{
         display: flex;
@@ -214,9 +230,11 @@ gitbody{
     .back__header{
         padding-left: 0;
     }
+    .box-responsive{
+        max-width: 940px;
+    }
     .box__message{
         padding: 50px 50px 30px 50px;
-        width: 45%;
         margin-left: 50px;
     }
     .box__message__text{
@@ -247,9 +265,12 @@ gitbody{
     }
 }
 @media only screen and (min-width: 1440px) {
+    .box-responsive{
+        max-width: 1220px;
+    }
     .box__message{
-        margin-left: 155px;
-        width: 40%;
+        margin-left: 120px;
+        width: 60%;
     }
     .contact{
         width: 90%;
