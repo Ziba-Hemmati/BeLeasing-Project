@@ -264,12 +264,12 @@ gitbody{
         width: 100%;
     }
 }
-@media only screen and (min-width: 1240px) {
+@media only screen and (min-width: 1440px) {
     .box-responsive{
         max-width: 1220px;
     }
     .box__message{
-        margin-left: 136px;
+        margin-left: 120px;
         width: 60%;
     }
     .contact{
