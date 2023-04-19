@@ -13,8 +13,6 @@ window.onscroll = function () {
   var header = document.getElementById("header-container");
   if (window.pageYOffset > 80) {
     header.style.position = "sticky";
-    document.getElementById("header-container").style.transition =
-      "all 2s ease";
   } else {
     header.style.position = "relative";
   }
