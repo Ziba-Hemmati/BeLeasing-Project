@@ -276,12 +276,13 @@
 }
 
 .calculate__highLight {
-  display: flex;
-  flex-direction: column;
-  font-family: DM-Sans-Normal, sans-serif;
-  line-height: 19px;
-  font-size: 1.3rem;
-  width: 90%;
+
+    display: flex;
+    flex-direction: column;
+    font-family: DM-Sans-Normal, sans-serif;
+    line-height: 19px;
+    font-size: 1.3rem;
+    width: 90%;
 }
 
 .calculate__highLight--padding {
@@ -939,8 +940,14 @@
     50% {
       opacity: 0;
     }
+
+    /*=================== calculate ===================*/
+    .calculate {
+        justify-content: center;
+
     100% {
       transform: translateX(0);
+
     }
   }
 
