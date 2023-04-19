@@ -933,22 +933,22 @@
   }
 
   @keyframes moveToLeft {
-    0% {
-      transform: translateX(600px);
-      opacity: 0;
-    }
-    50% {
-      opacity: 0;
-    }
+      0% {
+          transform: translateX(600px);
+          opacity: 0;
+      }
+      50% {
+          opacity: 0;
+      }
+      100% {
+          transform: translateX(0);
+
+      }
+  }
 
     /*=================== calculate ===================*/
     .calculate {
         justify-content: center;
-
-    100% {
-      transform: translateX(0);
-
-    }
   }
 
   /*===== slider arrow =====*/
