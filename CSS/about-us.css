@@ -1,5 +1,5 @@
 @import "../CSS/_base.css";
-
+.image-woman
 .container{
     width: 100%;
     height: auto;
@@ -14,38 +14,38 @@
 .section{
     width: 100%;
 }
-.about{
+.section__about-text{
     color: var(--color-Light-Blue);
     font-family: var(--font-Poppins-Bold);
     font-size:1.2rem ;
     margin: 0 0 20px;
 }
-.text{
+.section__about-heading{
     font-family: var(--font-Poppins-Normal);
     font-size: 3.2rem;
     margin: 0 0 15px;
 }
-.section-first{
+.section__first{
     display: flex;
     flex-direction: column;
     padding: 10px;
 }
-.belease{
+.section__first-heading{
     font-family: var(--font-DM-Sans-Normal);
     font-size: 1.8rem;
     margin: 0 0 20px;
 }
-.title{
+.section__first-text{
     margin: 0 0 20px;
     font-size: 1.1rem;
     font-family: var(--font-DM-Sans-Normal);
 }
-.scroll{
+.section__first-link{
     color: var(--color-Purple);
     font-family: var(--font-DM-Sans-Bold);
     font-size: 1.3rem;
 }
-.scroll:hover{
+.section__first-link:hover{
     text-decoration: underline;
 }
 .title-container{
@@ -58,25 +58,25 @@
     align-items: center;
     justify-content: center;
 }
-.text-item{
+.title-container__text-item{
     padding: 40px;
 }
-.image-man{
+.title-container__text-item-image-man{
     width: 100%;
 }
-.first-step{
+.title-container__text-item-image-heading{
     font-family: var(--font-Poppins-Normal);
     font-size: 2rem;
     padding-top: 20px;
     margin-bottom: 30px;
 }
-.lorem-ipsum{
+.title-container__text-item-image-text{
     font-family: var(--font-Poppins-Normal) ;
     font-size: 1.1rem;
     line-height: 16px;
     margin-bottom: 20px;
 }
-.button{
+.title-container__text-item-image-button{
     width: 100px;
     height: 45px;
     background-color: var(--color-Black);
@@ -85,7 +85,7 @@
     margin-bottom: 20px;
     font-size: 1.8rem;
 }
-.image-woman{
+.title-container__text-item-text-woman{
     width: 100%;
 }
 .section-second{
@@ -99,7 +99,7 @@
     display: flex;
     flex-direction: column;
 }
-.section-second-text{
+.section-second__text{
     font-family: var(--font-Poppins-Normal);
     padding-left: 33px;
     padding-top: 120px;
@@ -107,49 +107,49 @@
     font-size: 1.6rem;
 }
 
-.leasing-about-icon{
+.section-second__leasing-about-icon{
     padding: 33px;
 }
-.Individual{
+.section-second__leasing-about-icon-heading{
     font-family: var(--font-Poppins-Bold);
     font-size: 1.3rem;
     padding-top: 15px;
     padding-bottom: 15px;
 }
-.text-Attachment{
+.section-second__leasing-about-icon-text{
     font-family: var(--font-DM-Sans-Normal);
     font-size: 1.3rem;
 }
 .section-three-container{
     padding-bottom: 50px;
 }
-.section-text{
+.section-three__text{
     padding: 33px;
 }
-.Welcome{
+.section-three__text-heading{
     font-family: var(--font-Poppins-Normal);
     font-size: 3.2rem;
     padding-top: 50px;
     margin-bottom: 30px;
 }
-.last-text{
+.section-three__text-subheading{
     font-family: var(--font-Poppins-Normal);
     font-size: 1.8rem;
     margin-bottom: 30px;
 }
-.last-lorem{
+.section-three__text-text{
     font-family: var(--font-DM-Sans-Normal) ;
     font-size: 1.2rem;
     line-height: 16px;
     line-height: 20px;
 }  
-.last-part{
+.section-three__last-part{
     width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
 }
-.image-team{
+.section-three__last-part-image-team{
     width: 100%;
     padding: 30px;
 }
@@ -158,7 +158,7 @@
     justify-content: center;
     padding-top: 50px;
 }
-.button-contact{
+.button-contact-link{
    width: 90%;
     background-color: var(--color-Purple);
     color: var(--color-White);
@@ -171,30 +171,30 @@
     .section-container{
          padding: 100px 80px 50px 80px;
     }
-    .text{
+    .section__about-heading{
         font-family: var(--font-Poppins-Normal);
         font-size: 3.8rem;
     }
-    .belease{
+    .section__first-heading{
         font-family: var(--font-Poppins-Normal);
          font-size: 2.2rem;
     }
-    .text-item{
+    .title-container__text-item{
         padding: 100px;
     }
     .section-second{
         padding: 80px;
     }
-    .section-second-text{
+    .section-second__text{
         font-size: 2rem;
     }
     .section-three-container{
         padding: 80px;
     }
-    .title{
+    .section__first-text{
         font-size: 1.35rem;
     }
-    .last-part{
+    .section-three__last-part{
         width: 100%;
     }
 }
@@ -212,32 +212,32 @@
         justify-content: space-between;
         padding: 10px;
     }
-    .section-about{
+    .section__about{
         width: 50%;
     }
-    .text{
+    .section__about-heading{
         font-family: var(--font-Poppins-Normal);
         font-size: 4rem;
     }
-    .section-first{
+    .section__first{
         width: 50%;
         display: flex;
         flex-direction: column;
         padding:0 80px;
     }
-    .belease{
+    .section__first-heading{
         font-family: var(--font-Poppins-Normal);
          font-size: 2.8rem;
     }
-    .first-step{
+    .title-container__text-item-image-heading{
         font-size: 2.8rem;
         padding-top: 30px;
     }
-   .image{
+   .title-container__text-item-image{
        width: 50%; 
        padding: 20px;
     }
-    .text-items{
+    .title-container__text-item-text{
          width: 50%;
          padding: 20px;
     }
@@ -249,18 +249,18 @@
         display: flex;
         flex-direction: column;
     }
-    .section-second-text{
+    .section-second__text{
         font-size:2.5rem ;
     }
-    .Individual{
+    .section-second__leasing-about-icon-heading{
         font-size: 1.8rem;
     }
-    .leasing-about{
+    .section-second__leasing-about{
         display: flex;
         flex-direction: row;
         padding-bottom: 40px;
     }
-    .text-item{
+    .title-container__text-item{
         width: 100%;
         display: flex;
         flex-direction: row;
@@ -271,16 +271,16 @@
         display: flex;
         flex-direction: row;
     }
-    .Welcome{
+    .section-three__text-heading{
         font-size: 4.5rem;
     }
-    .last-text{
+    .section-three__text-subheading{
         font-size: 2.5rem;
     }
-    .last-lorem{
+    .section-three__text-text{
         font-size:1.4rem ;
     }
-    .last-part{
+    .section-three__last-part{
         width: 50%;
         display: flex;
         flex-direction: row;
@@ -292,11 +292,11 @@
         justify-content: center;
         align-items: center;
     }
-    .section-text{
+    .section-three__text{
         width: 50%;
         padding: 30px;
     }
-    .button-contact{
+    .button-contact-link{
         width: 30%;
        
     }
@@ -316,48 +316,48 @@
         justify-content: space-between;
         padding: 30px;
     }
-    .about{
+    .section__about-text{
         font-size: 1.4rem;
     }
-    .section-about{
+    .section__about{
         width: 50%;
        padding: 0 40px;
     }
-    .text{
+    .section__about-heading{
         font-family: var(--font-Poppins-Normal);
         font-size: 5rem;
     }
-    .section-first{
+    .section__first{
         width: 50%;
         display: flex;
         flex-direction: column;
         padding: 0 140px;
     }
-    .title{
+    .section__first-text{
         font-family: var(--font-DM-Sans-Normal);
         font-size: 1.5rem;
         line-height: 20px;
     }
-    .scroll{
+    .section__first-link{
         font-size: 1.6rem;
     }
-    .belease{
+    .section__first-heading{
         font-family: var(--font-Poppins-Normal);
          font-size: 2.8rem;
     }
-    .lorem-ipsum{
+    .title-container__text-item-image-text{
         font-size:1.3rem;
         line-height: 24px;
     }
-    .first-step{
+    .title-container__text-item-image-heading{
         font-size: 3.5rem;
         padding-top: 30px;
     }
-   .image{
+   .title-container__text-item-image{
        width: 50%; 
        padding: 25px;
     }
-    .text-items{
+    .title-container__text-item-text{
          width: 50%;
          padding: 25px;
     }
@@ -371,20 +371,20 @@
         padding: 20px;
         padding-bottom: 100px;
     }
-    .section-second-text{
+    .section-second__text{
         font-size:2.5rem ;
     }
-    .Individual{
+    .section-second__leasing-about-icon-heading{
         font-size: 2rem;
     }
-    .text-Attachment{
+    .section-second__leasing-about-icon-text{
         font-size: 1.4rem;
     }
-    .leasing-about{
+    .section-second__leasing-about{
         display: flex;
         flex-direction: row;
     }
-    .text-item{
+    .title-container__text-item{
         width: 100%;
         display: flex;
         flex-direction: row;
@@ -395,17 +395,17 @@
         display: flex;
         flex-direction: row;
     }
-    .Welcome{
+    .section-three__text-heading{
         font-size: 5rem;
     }
-    .last-text{
+    .section-three__text-subheading{
         font-size: 3rem;
     }
-    .last-lorem{
+    .section-three__text-text{
         font-size:1.5rem ;
         line-height: 24px;
     }
-    .last-part{
+    .section-three__last-part{
         width: 100%;
         display: flex;
         flex-direction: row;
@@ -417,15 +417,15 @@
         align-items: center;
         padding-bottom: 30px;
     }
-    .section-text{
+    .section-three__text{
         width: 50%;
         padding: 40px;
     }
-    .last-part{
+    .section-three__last-part{
         width: 60%;
        padding-top: 60px;
     }
-    .button-contact{
+    .button-contact-link{
         width: 30%;
        
     }
